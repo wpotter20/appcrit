@@ -1,0 +1,752 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title xml:lang="en" level="a" ref="http://syriaca.org/work/8598">Ecletic Edition with Textual Apparatus of Narsai's Homily on Job</title>
+                <title xml:lang="en" level="a" type="sub">A TEI Edition of Narsai's Homily On Job with English Translation</title>
+                <author ref="http://syriaca.org/person/650">Narsai</author>
+                <editor role="editor" xml:id="WLP">William L. Potter</editor>
+                <respStmt>
+                    <resp>Apparatus encoded by</resp>
+                    <name type="person" ref="#WLP">William L. Potter</name>
+                </respStmt>
+            </titleStmt>
+            <editionStmt>
+                <edition n="0.1"/>
+            </editionStmt>
+            <publicationStmt>
+                <distributor>
+                    <placeName>Vanderbilt Divinity School, Vanderbilt University,
+                        Nashville, Tennessee, USA</placeName>
+                </distributor>
+                <authority>Vanderbilt Divinity School, Master of Theological Studies Thesis</authority>
+                <availability><licence target="http://creativecommons.org/licenses/by/4.0/">
+                    <p>Creative Commons — Attribution 4.0 International — CC BY 4.0</p>
+                    <p>https://creativecommons.org/licenses/by/4.0/</p>
+                </licence>
+                <ab>
+                    <note>The XML is copyrighted by William L. Potter and released
+                        under a under a Creative Commons Attribution 4.0 International Public
+                        License (CC-BY 4.0, https://creativecommons.org/licenses/by/4.0/).
+                        Attribution for reuse should follow the suggested citation and also
+                        credit the copyright holder of the TEI XML edition.</note>
+                </ab>
+                <ab>
+                    <note>This electronic edition is designed for open access reuse. The Syriac base
+                        text is in the public domain. This edition incorporates materials created by James E.
+                        Walters and reused under a Creative Commons
+                        Attribution 4.0 International Public License (CC BY 4.0).</note>
+                </ab>
+                </availability>
+                <date calendar="Gregorian" when="2019-01-01">2019</date>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>
+                    <title xml:lang="en" level="a" ref="http://syriaca.org/work/8598">
+                        On Job -
+                        <foreign xml:lang="syr">ܥܲܠ ܐܝܼܘܿܒܼ ܙܲܕܿܝܼܩܵܐ</foreign>
+                    </title>
+                    <title xml:lang="en" level="s" ref="http://syriaca.org/work/8528">The Homilies of Mar Narsai</title>
+                    <title level="s">Digital Syriac Corpus</title>
+                    <idno type="URI">https://syriaccorpus.org/96</idno>
+                    <author ref="http://syriaca.org/person/650">Narsai</author>
+                    <editor role="editor" ref="http://syriaca.org/person.xml#jwalters">
+                        James E. Walters, Rochester College
+                    </editor>
+                    <respStmt>
+                        <resp>TEI XML encoding by</resp>
+                        <name type="person" ref="http://syriaca.org/person.xml#jwalters">James E. Walters</name>
+                    </respStmt>
+                    <respStmt>
+                        <resp>Based on the work of</resp>
+                        <name type="person">D. Alphonse Mingana</name>
+                    </respStmt>
+                    <respStmt>
+                        <resp>Syriac text transcribed by</resp>
+                        <name type="person" ref="http://syriaca.org/person.xml#wtoma">William Toma</name>
+                    </respStmt></bibl>
+                <listWit>
+                    <witness xml:id="A">
+                        <biblStruct>
+                            <monogr>
+                                <editor>
+                                    <forename>Alphonse</forename>
+                                    <surname>Mingana</surname>
+                                </editor>
+                                <title level="m">Narsai doctoris Syri homiliæ et carmina</title>
+                                <idno type="URI">http://syriaca.org/bibl/1765</idno>
+                                <idno type="URI">http://zotero.org/groups/392292/items/6UFVJ9EG</idno>
+                                <idno type="URI">http://www.worldcat.org/oclc/68740316</idno>
+                                <imprint>
+                                    <pubPlace>Mausilii</pubPlace>
+                                    <publisher>Typis Fratrum Prædicatorum</publisher>
+                                    <date>1905</date>
+                                </imprint>
+                                <biblScope unit="volume" n="2">II</biblScope>
+                                <biblScope unit="page" from="254" to="265">pp 254-265</biblScope>
+                            </monogr>
+                        </biblStruct></witness>
+                    <witness xml:id="B"><biblStruct>
+                            <monogr>
+                                <editor>
+                                    <addName type="honorific">Mar</addName>
+                                    <forename>Eshai</forename>
+                                    <surname>Shimun</surname>
+                                    <genName type="numeral" n="23">XXIII</genName>
+                                </editor>
+                                <title level="m">Homilies of Mar Narsai</title>
+                                <idno type="URI">http://syriaca.org/bibl/2038</idno>
+                                <idno type="URI">http://zotero.org/groups/392292/items/XKEE7WCJ</idno>
+                                <idno type="URI">http://syri.ac/bibliography/140161927</idno>
+                                <idno type="URI">http://www.worldcat.org/oclc/757823116</idno>
+                                <imprint>
+                                    <pubPlace>San Francisco</pubPlace>
+                                    <publisher>Patriarchal Press</publisher>
+                                    <date when="1970-01-01">1970</date>
+                                </imprint>
+                                <biblScope unit="volume" n="2">II</biblScope>
+                                <biblScope unit="page" from="167" to="182">pp 167-182</biblScope>
+                            </monogr>
+                        <note>According to this work's introduction, this text is a fascimile reproduction of a manuscript copied in 1901 in Mosul by Patros ben Yosip from Telkepe, Iran. Based on its contents and ordering it does not appear to be a direct copy of any of the other manuscript sources listed here.</note>
+                        </biblStruct></witness>
+                    <witness xml:id="C">
+                        <msDesc xml:id="manuscript-T" xml:lang="en">
+                            <msIdentifier>
+                                <country>Iran</country>
+                                <settlement>Tehran</settlement>
+                                <repository>Chaldean Church of Saint Joseph</repository>
+                                <idno type="URI">https://w3id.org/vhmml/readingRoom/view/501331</idno>
+                                <altIdentifier>
+                                    <idno type="shelfmark">MS 5</idno>
+                                </altIdentifier>
+                                <altIdentifier>
+                                    <idno type="HMML-ProjNum">TEH SJ 00005</idno>
+                                </altIdentifier>
+                                <altIdentifier>
+                                    <idno type="Macomber">Neesan MS 1</idno>
+                                </altIdentifier>
+                            </msIdentifier>
+                            <msContents>
+                                <msItem>
+                                    <locus type="pageNumber" from="1" to="4">1-406</locus>
+                                    <title type="supplied">Homilies of Mar Narsai</title>
+                                    <msItem>
+                                        <locus type="pageNumber" from="305" to="309">305-309</locus>
+                                        <rubric xml:lang="syr">ܐ̄ܚܪܹܢܵܐ ܕܝܼܠܹܗ܀</rubric>
+                                        <title xml:lang="syr">ܕܲܥܒ‌ܝܼܕ ܠܹܗ ܥܲܠ ܐܝܼܘܿܒܼ ܙܲܕܿܝܼܩܵܐ ܘܥܲܠ ܢܸܣܝܘܿܢܹ̈ܐ ܕܲܣܒܲܠ</title>
+                                    </msItem>
+                                </msItem>
+                                <msItem>
+                                    <locus type="pageNumber" from="406" to="411">406-411</locus>
+                                    <title type="supplied">Finding of the Cross</title>
+                                </msItem>
+                            </msContents>
+                            <physDesc>
+                                <objectDesc>
+                                    <supportDesc material="paper">
+                                        <support><material>Paper</material></support>
+                                    </supportDesc>
+                                    <layoutDesc>
+                                        <layout columns="2" writtenLines="43">2 columns, 43 lines
+                                            per page</layout>
+                                    </layoutDesc>
+                                </objectDesc>
+                                <handDesc>
+                                    <handNote>Copied by <name type="person">Dawid bar Benyamin bar
+                                        Yaʿqob of <placeName>Targawar</placeName></name>
+                                    </handNote>
+                                </handDesc>
+                                <accMat><p>According to accompanying typewritten note by <name type="person">Philippe
+                                        Gignoux</name>, dated <date when="1966-03-23">23 March 1966</date>, this manuscript is a copy of
+                                        <ref target="#manuscript-Ln2">British Library Or 5463</ref></p></accMat>
+                            </physDesc>
+                            <history> <!-- Syriaca refs in placeNames -->
+                                <origin calendar="Gregorian" when="1896-05-03">Copied May 3, 1896 at
+                                        <placeName>Urmia</placeName>.</origin>
+                                <provenance when="1965-01-01">According to note on front flyleaf by
+                                        <name type="person">Yoḥannān Simʿan ʿIsāy, Metropolitan of
+                                        Tehran,</name> the manuscript was purchased around 1965 from
+                                    a Jewish man in <placeName>Tehran</placeName></provenance>
+                            </history>
+                        </msDesc>
+                    </witness>
+                </listWit>
+                <msDesc xml:id="manuscript-Lg1">
+                    <msIdentifier>
+                        <country>Russia</country>
+                        <settlement>Leningrad</settlement>
+                        <repository>Oriental Institute of the Academy of Sciences of Leningrad</repository>
+                        <idno type="Macomber">Diettrich MS 5</idno>
+                    </msIdentifier>
+                    <msContents>
+                        <msItem>
+                            <locus type="folio" from="1a">1a-?</locus>
+                            <title type="supplied">Homilies of Mar Narsai</title>
+                            <msItem>
+                                <locus type="folio" from="74a" to="77a">74a-77a</locus>
+                                <title type="supplied">On Job the Righteous</title>
+                            </msItem>
+                        </msItem>
+                    </msContents>
+                    <history>
+                        <origin from="1700-01-01" to="1899-12-31">18th or 19th Century</origin>
+                    </history>
+                </msDesc>
+                <msDesc xml:id="manuscript-Ln2">
+                    <msIdentifier>
+                        <country>England</country>
+                        <settlement>London</settlement>
+                        <repository>British Museum</repository>
+                        <idno type="Macomber">British Museum Oriental MS 5463</idno>
+                        <altIdentifier>
+                            <idno type="shelfmark">Or MS 5463</idno>
+                        </altIdentifier>
+                    </msIdentifier>
+                    <msContents>
+                        <msItem>
+                            <locus type="folio" from="1a">1a-?</locus>
+                            <title type="supplied">Homilies of Mar Narsai</title>
+                            <msItem>
+                                <locus type="folio" from="262a" to="266a">262a-266a</locus>
+                                <title type="supplied">On Job the Righteous</title>
+                            </msItem>
+                        </msItem>
+                    </msContents>
+                    <history>
+                        <origin when="1893-01-01">1893 in <placeName>Urmia</placeName></origin>
+                    </history>
+                </msDesc>
+                <msDesc xml:id="manuscript-M3b">
+                    <msIdentifier>
+                        <country>Iraq</country>
+                        <settlement>Baghdad</settlement>
+                        <repository>Chaldean Patriarchate</repository>
+                        <idno type="Macomber">Chaldean Patriarchate MS 70</idno>
+                    </msIdentifier>
+                    <msContents>
+                        <msItem>
+                            <locus type="folio" from="1a">1a-?</locus>
+                            <title type="supplied">Homilies of Mar Narsai</title>
+                            <msItem>
+                                <locus type="folio" from="74b" to="81b">74b-81b</locus>
+                                <title type="supplied">On Job the Righteous</title>
+                            </msItem>
+                        </msItem>
+                    </msContents>
+                    <history>
+                        <origin when="1895-01-01">1895 in <placeName>Alqosh</placeName></origin>
+                    </history>
+                </msDesc>
+                <msDesc xml:id="manuscript-Ln4">
+                    <msIdentifier>
+                        <country>England</country>
+                        <settlement>London</settlement>
+                        <repository>British Museum</repository>
+                        <idno type="Macomber">British Museum Oriental MS 9367</idno>
+                        <altIdentifier>
+                            <idno type="shelfmark">Or MS 9367</idno>
+                        </altIdentifier>
+                    </msIdentifier>
+                    <msContents>
+                        <msItem>
+                            <locus type="folio" from="1a">1a-?</locus>
+                            <title type="supplied">Homilies of Mar Narsai</title>
+                            <msItem>
+                                <locus type="folio" from="72a" to="78b">72a-78b</locus>
+                                <title type="supplied">On Job the Righteous</title>
+                            </msItem>
+                        </msItem>
+                    </msContents>
+                    <history>
+                        <origin when="1896-01-01">1896 in <placeName>Alqosh</placeName> for <name type="person">Sir E. A. Wallis Budge</name></origin>
+                    </history>
+                </msDesc>
+                <msDesc xml:id="manuscript-A2">
+                    <msIdentifier>
+                        <country>Iraq</country>
+                        <settlement>Alqosh</settlement>
+                        <repository>Notre-Dame des Semences</repository>
+                        <idno type="Macomber">Notre-Dame des Semences MS 161</idno>
+                    </msIdentifier>
+                    <msContents>
+                        <msItem>
+                            <locus type="folio" from="1a">1a-?</locus>
+                            <title type="supplied">Homilies of Mar Narsai</title>
+                            <msItem>
+                                <locus type="folio" from="74b" to="81b">74b-81b</locus>
+                                <title type="supplied">On Job the Righteous</title>
+                            </msItem>
+                        </msItem>
+                    </msContents>
+                    <history>
+                        <origin when="1898-01-01">1898 in <placeName>Alqosh</placeName> by <name type="person">R. Paulos Djadan</name></origin>
+                    </history>
+                </msDesc>
+                <msDesc xml:id="manuscript-Bm">
+                    <msIdentifier>
+                        <country>England</country>
+                        <settlement>Birmingham</settlement>
+                        <repository>Selly Oak Colleges Library</repository>
+                        <idno type="Macomber">Mingana Syriac MS 55</idno>
+                    </msIdentifier>
+                    <msContents>
+                        <msItem>
+                            <locus type="folio" from="1a" to="324a">1a-324a</locus>
+                            <title type="supplied">Homilies of Mar Narsai</title>
+                            <msItem>
+                                <locus type="folio" from="82a" to="88b">82a-88b</locus>
+                                <title type="supplied">On Job the Righteous</title>
+                            </msItem>
+                        </msItem>
+                    </msContents>
+                    <history>
+                        <origin when="1902-01-01">1902 in <placeName>Alqosh</placeName></origin>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <editorialDecl>
+                <p>Since <ref target="#A">Mingana</ref> printed his edition in-line (delineating lines only by symbol), page beginning tags are placed before the first full line on the new page.</p>
+                <p>The lines have been delineated with the symbols <g>:</g> for the first half of each distich and <g>܀</g> for the latter half. These appear in <ref target="#A">A</ref> and in <ref target="#B">B</ref>; however, <ref target="#C">C</ref>" delineates the first half-distich with a dot resembling an english period.</p>
+                <p>Variants in vocalisation have, for the most part, been recorded, however, a witness's lack of vocalisation - or its use of a different system, such as dots rather than full vowel marks to distinguish verb forms - has not been recorded if it does not contradict the readings in other witnesses.</p>
+                <p>At certain points <ref target="#A">A</ref> and <ref target="#B">B</ref> utilize an abbreviated suffix for the possessive third masculine singular on plural nouns. These abbreviations have not been noted.</p>
+                <p>The apparatus was encoded using the guidelines for Online Critical Editions developed by Github user <ref target="https://github.com/hcayless/appcrit">hcayless</ref>. xml:ids follow the pattern of a letter signaling the element type (a for app, l for lem, r for rdg) followed by the line number, a hyphen, and a number for the occurence in the line. Thus the first app element in line 14 would be "a14-1" and so on.</p>
+            </editorialDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="syr">East Syriac Script with East Syriac vocalization</language>
+                <language ident="en">English</language>
+            </langUsage>
+        </profileDesc>
+        <revisionDesc status="EclecticEdition">
+            <change when="2019-04-22" who="#WLP">Updated Apparatus Encoding Style</change>
+            <change when="2019-04-22" who="#WLP">Edited Header</change>
+            <change when="2019-03-08" who="#WLP">Encoded manuscript variants</change>
+            <change when="2017-07-05" who="http://syriaca.org/person.xml#jwalters">Edited text
+                structure</change>
+            <change when="2017-04-19" who="http://syriaca.org/person.xml#jwalters">Created:
+                file</change>
+        </revisionDesc>
+    </teiHeader>
+    <text type="EclecticEdition">
+        <body>
+            <div type="title" n="0">
+                <ab xml:lang="syr">ܥܲܠ ܐܝܼܘܿܒܼ ܙܲܕܿܝܼܩܵܐ</ab>
+            </div>
+            <div type="rubric" xml:lang="syr">
+                <pb edRef="#A" n="254"/>
+                <l>ܥܲܠ ܐܝܼܘܿܒܼ ܙܲܕܿܝܼܩܵܐ</l>
+                <l>ܘܥܲܠ ܢܸܣܝܘܿܢܹ̈ܐ ܕܲܣܒܲܠ</l>
+            </div>
+            <div type="text" xml:lang="syr">
+                <l n="1">:ܠܝܘܼܬܼܪܵܢ ܐ̄̇ܢܵܫܵܐ ܪܫܲܡ̣ ܒܵܪܘܿܝܵܐ ܕܘܼܟܼܪܵܢ ܐ̄ܢܵܫܵܐ</l>
+                <l n="2">ܕܲܒܼܥܘܼܗܕܵܢܵܐ ܕܟܹܐܢܹ̈ܐ ܕܲܢܨܲܚܘ ܢܚܲܟܸܿܡ <app xml:id="a2-1"><lem xml:id="l2-1" wit="#A #B">ܐ̄ܢܵܫܵܐ</lem><rdg xml:id="r2-1" wit="#C">ܐ̄ܢܫ̈ܐ</rdg></app> ܀</l>
+                <l n="3">:ܘܟܲܕܼ ܠܹܗ ܓܠܸܐ ܗ̄ܘ̣ܵܐ ܨܼܒܼܝܵܢ ܟܹܐܢܹ̈ܐ ܐܲܝܟ ܝܵ̇ܕܲܥ ܟܠ</l>
+                <l n="4">ܠܵܐ ܨܒܼܵܐ ܢܟܲܣܸܐ ܥܘܼܬܼܪܵܐ ܕܟܲܢܸܫܘ ܒܝܲܕܼ ܥܲܡܠܲܝ̈ܗܘܿܢ ܀</l>
+                <l n="5">:ܪܫܲܡ̣ ܕܘܼܟܼܪܵܢܵܐ ܕܲܫܡܵܗܲܝ̈ܗܘܿܢ ܒܣܸܦܪܵܐ ܕܡܸܠܵܘ̈ܗܝ</l>
+                <pb edRef="#A" n="255"/>
+                <l n="6">ܘܐܲܝܟ ܗܲܕܿܝܼܐܹ̈݁ܐ ܕܪܲܫ ܒܐܝܼܕܲܝ̈ܗܘܿܢ ܐܘܼܪܚܵܐ ܠܚܲܝܹ̈ܐ ܀ </l>
+                <l n="7">:ܒܲܕܼܡܘܼܬܼ ܛܲܒܼܥܹ̈ܐ ܩ̣ܒܲܥ ܒܲܟܼܬܼܵܒܼܵܘ̈ܗܝ ܫܸܡ ܢܲܨܝܼܚܹ̈ܐ</l>
+                <l n="8">ܘܲܓܼܕܲܠ ܐܸܢܘܿܢ ܟܠܝܼܠܵܐ ܦܲܐܝܵܐ ܠܪܹܫ ܙܵܟܼܘܼܬܼܵܐ ܀</l>
+                <l n="9">:ܣܵܡ̣ ܥܲܡܠܲܝ̈ܗܘܿܢ ܐܲܝܟ ܫܲܬܸܐܣܬܼܵܐ ܒܣܸܦܪܹ݁ܐ ܕܡܸܠܵܘ̈ܗܝ</l>
+                <l n="10">ܕܢܸܒܼܢܘܿܢ <app xml:id="a10-1"><lem xml:id="l10-1" wit="#A #B">ܐ̄ܢܵܫܵܐ</lem><rdg xml:id="r10-1" wit="#C">ܐ̄ܢܫ̈ܐ</rdg></app> ܕܘܼܒܵܪ̈ܲܝܗܘܿܢ ܥܲܠ ܥܲܡܠܲܝ̈ܗܘܿܢ ܀</l>
+                <l n="11">:ܐܲܝܟ ܢܲܗܝܼܪܹ̈ܐ ܫܡܸܫܵܐ ܘܣܲܗܪܵܐ ܩ̣ܒܲܥ ܥܲܡܠܲܝ̈ܗܘܿܢ</l>
+                <l n="12"><app xml:id="a12-1"><lem xml:id="l12-1" wit="#A">ܕܲܒܼܕܸܠܩܲܝ̈ܗܘܿܢ</lem><rdg xml:id="r12-1" wit="#B #C">ܘܲܒܼܕܸܠܩܲܝ̈ܗܘܿܢ</rdg></app> ܢܚܵܘܘܿܢ ܢܘܗܪܵܐ ܠܢܲܦܫܵܐ ܟܣܝܼܬܼܵܐ ܀</l>
+                <l n="13">:ܡܝܼ̈ܠܹܐ ܕܫܲܝܢܵܐ ܣܵܡ̣ ܒܲܟܼܬܼܵܒܼܵܘ̈ܗܝ ܫܸܡ ܙܲܕܿܝܼܩܹ̈ܐ</l>
+                <l n="14">ܕܢܸܕܲܥ ܟܠܢܵܫ ܐܲܝܟܲܢ ܢܗܲܠܸܟ ܒܥܲܡܠܹ̈ܐ ܕܢܲܦܫܵܐ ܀</l>
+                <l n="15">:ܗܘ̤ܵܘ ܡܲܚܙܝܼܬܼܵܐ ܒܕܼܘܼܒܵܪ̈ܲܝܗܘܿܢ ܠܥܲܝܢܲܝ̈ ܠܸܒܵܐ</l>
+                <l n="16">ܕܢܸܡܪܘܿܩ ܟܠܢܵܫ ܣܲܢܝܼܘܼܬܼ ܢܲܦܫܹܗ ܒܝܲܕܼ ܥܲܡܠܲܝ̈ܗܘܿܢ ܀</l>
+                <l n="17">:ܠܵܘ ܩܘܼܠܵܣܹ̈ܐ ܓܕܲܠ ܒܼܵܪܘܿܝܵܐ ܠܟܹܐܢܹ̈ܐ ܕܪܲܚܡ̣ܘܼܗܝ</l>
+                <pb edRef="#B" n="168"/>
+                <l n="18">ܕܘܼܒܵܪ̈ܲܝܗܘܿܢ ܩ̣ܒܲܥ ܐܲܝܟ ܢܝܼܫܵܐ ܠܲܕܼܒܼܵܬܲܪܗܘܿܢ ܀</l>
+                <l n="19">:ܒܗܘܿܢ ܚܵܐ̇ܲܪ ܗ̄ܘ̣ܵܐ ܟܲܕܼ ܚܵܫ̇ܝܼܢ ܗ̄ܘ̣ܵܘ ܒܚܲܫܲܝ̈ ܦܲܓܼܪܵܐ</l>
+                <l n="20">ܘܲܒܼܚܘܼܡܣܵܢܗܘܿܢ ܡܸܬܼܒܲܩܸܐ ܗ̄ܘ̣ܵܐ ܟܲܕܼ ܒܵܠ̇ܥܝܼܢ ܗ̄ܘ̣ܵܘ ܀</l>
+                <l n="21">:ܚܲܝܠܹܗ ܚܲܝܸܠ ܠܪܸ̈ܥܝܵܢܲܝܗܘܿܢ ܒܐܵܓܼܘܿܢܲܝ̈ܗܘܿܢ</l>
+                <l n="22">ܘܲܒܼܥܘܼܕܼܪܵܢܹܗ ܫܩܲܠ̣ܘ ܙܵܟܼܘܼܬܼܵܐ ܒܬܲܟܼܬܿܘܼܫܲܝ̈ܗܘܿܢ ܀</l>
+                <l n="23">:ܠܵܘ ܥܲܡ ܒܸܣܪܵܐ ܥܒ݂ܲܕܼܘ ܬܲܟܼܬܿܘܼܫܵܐ ܒܸܣܪ݁ܵܢܵܝܹܐ</l>
+                <l n="24">ܥܲܡ ܪܹܫ ܐܵܐܲܪ ܢܚܸܬܼܘ ܠܐܵܓܼܘܿܢܵܐ ܒܙܵܘܥܲܝ̈ ܢܲܦܫܵܐ ܀</l>
+                <l n="25">:ܟܬ݂ܲܒܼ ܒܵܪܘܿܝܵܐ ܢܸܨܚܵܢܲܝ̈ܗܘܿܢ ܘܣܵܡ̣ ܒܹܝܬܼ ܐܲܪ̈ܟܹܐ</l>
+                <pb edRef="#C" n="306"/>
+                <cb edRef="#C" n="1"/>
+                <l n="26">ܕܢܹܐܠܲܦ ܟܠܢܵܫ ܥܲܠ ܬܲܟܼܬܿܘܼܫܵܐ ܕܒܸܣܪܵܐ ܘܪܘܼܚܵܐ ܀</l>
+                <l n="27">:ܒܗܵܢ ܬܲܟܼܬܿܘܼܫܵܐ ܕܥܲܡ ܪ̈ܘܼܚܵܢܹܐ ܢܨܲܚ ܐܵܦ ܐܝܼܘܿܒܼ</l>
+                <l n="28">ܘܠܵܐܟܹ̇ܠܩܲܪܨܵܐ ܙܟܼܵܐ ܒܐܵܓܼܘܿܢܵܐ ܒܝܲܕܼ ܚܘܼܡܣܵܢܹܗ ܀</l>
+                <l n="29">:ܘܕܲܙܟܼܵܐ ܒܸܣܪܵܐ ܠܪܹܫܵܐ ܕܐܵܐܲܪ ܘܚܵܒܼ ܪܘܼܚܵܢܵܐ</l>
+                <l n="30">ܪܫܲܡ̣ ܒܵܪܘܿܝܵܐ ܙܵܟܼܘܼܬܼ ܐ̄ܢܵܫܵܐ ܘܚܵܘܒܲܬܼ ܫܹܐܕܹ̈ܐ ܀</l>
+                <l n="31">:ܟܬ݂ܲܒܼ ܕܘܼܟܼܪܵܢܹܗ ܕܐܝܼܘܿܒܼ ܟܹܐܢܵܐ ܒܲܣܦܲܪ ܡܸܠܵܘ̈ܗܝ</l>
+                <l n="32">ܘܲܩܪ̣ܵܝܗܝ ܓܲܒܼܪܵܐ ܕܢܹܐܠܲܦ ܟܠܢܵܫ ܕܦܲܓܼܪܵܢܵܝܵܐ ܗ̄ܘ̣ ܀</l>
+                <l n="33">:ܐܵܘܕܼܵܥ ܐܲܬܼܪܹܗ ܘܚܵܘܝܼ ܥܲܡܹܗ ܕܐܲܕܼܘܿܡܵܝܵܐ ܗ̄ܘ̣</l>
+                <l n="34">ܕܢܸܕܲܥ ܟܠܢܵܫ ܕܥܲܦܪܵܢܵܝܵܐ ܗ̄ܘ̣ ܓܒܼܝܼܠ ܡ̣ܢ ܐܲܪܥܵܐ ܀</l>
+                <l n="35">:ܬܢܵܐ̣ ܕܘܼܒܵܪ̈ܵܘܗܝ ܕܬܲܡܝܼܡ ܘܲܬܼܪܝܼܨ ܘܟܹܐܝܢ ܘܲܡܫܲܡܠܲܝ</l>
+                <l n="36">ܘܡܲܣܓܸܿܐ ܡܝܲܩܲܪ ܡܸܠܲܬܼ ܡ̇ܪܹܗ ܒܫܲܦܝܘܼܬܼ ܢܲܦܫܵܐ ܀</l>
+                <l n="37">:ܥܗ݂ܲܕܼ ܩܸܢܝܵܢܵܘ̈ܗܝ ܘܪܲܒܿܘܼܬܼ ܥܘܼܬܼܪܹܗ ܕܟܲܗܝܼܢ ܒܐܲܪܥܵܐ</l>
+                <l n="38">ܘܠܵܐ ܐܸܬܼܦܲܟܲܪ ܒܝܲܕܼ ܩܸܢܝܵܢܵܘ̈ܗܝ ܒܐܲܪ̈ܥܵܢܝܵܬܼܵܐ ܀</l>
+                <l n="39">:ܚܵܘܝܼ ܟܠܝܼܠܹ̈ܐ ܦܐܲܝ̈ܵܐ ܕܲܒܼܢܵܘ̈ܗܝ ܒܡܸܢܝܵܢ ܥܸܣܪܵܐ</l>
+                <l n="40">ܘܠܵܐ ܦܲܟܲܗܬܹܗ ܪܸܚܡܲܬܼ ܝܲܠܕܵܘ̈ܗܝ ܠܚܘܼܒܵܐ ܕܡ̇ܪܹܗ ܀</l>
+                <l n="41">:ܩܲܠܸܣ ܘܐܵܘܪܸܒܼ ܠܲܚܦܝܼܛܘܼܬܹܗ ܕܲܠܘܵܬܼ ܝܼܠܕܵܘ̈ܗܝ</l>
+                <pb edRef="#A" n="256"/>
+                <pb edRef="#B" n="169"/>
+                <l n="42">ܕܲܒܼܝܲܕܼ <app xml:id="a42-1"><lem xml:id="l42-1" wit="#A #B">ܕܸܒܼܚܹ̈ܐ</lem><rdg xml:id="r42-1" wit="#C">ܕܸܒܼܚܹ̈ܗ</rdg></app> ܡܚܲܣܸܐ ܟܠܫܵܥ ܕܕܲܠܡܵܐ ܐܲܣܟܸܿܠܘ</l>
+                <l n="43">:<app xml:id="a43-1"><lem xml:id="l43-1" wit="#A #B">ܐܲܥ̣ܠ</lem><rdg xml:id="r43-1" wit="#C">ܐܲܥ̣ܠܘ</rdg></app> ܫܲܪܒܵܐ ܕܪܸܚܡܲܬܼ ܟܹܐܢܹ̈ܐ ܒܥܸܠܲܬܼ ܐܝܼܘܿܒܼ</l>
+                <l n="44">ܕܐܸܬܹ̇ܝܢ ܟܠܫܵܥ ܠܲܡܨܲܠܵܝܘܼ ܒܲܬܼܪܵܗ ܟܹܐܢܵܐ ܀</l>
+                <l n="45">:ܗܘ̤ܵܐ ܠܲܡ ܝܵܘܡ̇ܐ ܐܲܝܟ ܕܲܡܥܵܕܼܝܢ ܒܢܲܝ̈ ܐܹܠܘܿܗܝܼܡ</l>
+                <l n="46">ܘܐܸܬܼܵܘ ܠܲܡܩܵܡ ܩܕܼܵܡ ܐܲܠܵܗܵܐ ܒܫܲܦܝܘܼܬܼ ܢܲܦܫܵܐ ܀</l>
+                <l n="47">:ܐܲܥܸܠ ܫܲܪܒܵܐ ܕܐܵܟܹ̇ܠܩܲܪܨܵܐ ܕܥܲܡܗܘܿܢ ܐܸܬܼܵܐ</l>
+                <l n="48">ܘܩܵܡ̣ ܒܲܝܢܵܬܼܗܘܿܢ ܩܕܼܵܡ ܐܲܠܵܗܵܐ ܠܵܘ ܕܲܢܨܲܠܸܐ ܀</l>
+                <l n="49">:ܬܪܹܝܢ ܛܘܼܝܵܒܼܝܼ̈ܢ ܕܲܬܼܪܹܝܢ ܓܲܒܼܝܼ̈ܢ ܓܠ̣ܵܐ ܒܵܪܘܿܝܵܐ</l>
+                <l n="50">ܨܸܒܼܝܵܢ ܟܹܐܢܵܐ ܘܪܸܓܲܬܼ ܒܝܼܫܵܐ ܕܠܘܼܩܒܲܠ ܟܹܐܢܹ̈ܐ ܀</l>
+                <l n="51">:ܠܵܘ ܒܲܟܼܝܵܢܵܐ ܘܠܵܘ ܒܲܚܙܵܬܼܵܐ ܐܸܡܲ݁ܪ ܕܐܸܬܼܵܘ</l>
+                <l n="52">ܠܵܐ ܓܹܝܪ ܡܲܨܝܵܐ ܥܒܼܝ̈ܕܹܐ ܕܢܸܚܙܘܿܢ ܠܲܟܼܣܸܐ ܡ̣ܢ ܟܠ ܀</l>
+                <l n="53">:ܚܘܼܫܵܒܲܝ̈ܗܘܿܢ ܨܒܼܵܐ ܕܲܢܒܲܕܸܿܩ ܕܟܹܐܢܹ̈ܐ ܘܒܼܝܼܫܹ̈ܐ</l>
+                <l n="54">ܕܡܸܛܠ ܡ̇ܢܵܐ ܚܦܝܼܛܝܼܢ ܟܠܫܵܥ ܠܲܬܼܪܲܥ ܪܵܡ̇ܐ ܀</l>
+                <l n="55">:ܠܵܐ ܗ̄ܘ̣ܵܐ ܠܟܲܣܝܵܐ ܚܵܙܹ̇ܝܢ ܟܹܐܢܹ̈ܐ ܒܝܲܕܼ ܗܵܝ̇ ܕܐܵܬܹܿܝܢ</l>
+                <l n="56">ܘܠܵܐ ܣܵܛܵܢܵܐ ܡܨܸܐ ܕܲܢܡܲܠܸܠ ܥܲܡ ܐܝܼܬܼܘܼܬܼܵܐ ܀</l>
+                <l n="57">:ܘܐܸܢ ܙܲܕܿܝܼܩܹ̈ܐ ܚܵܙܹ̇ܝܢ ܠܟܲܣܝܵܐ ܒܫܲܦܝܘܼܬܼ ܢܲܦܫܵܐ</l>
+                <l n="58">ܐܲܝܟܲܢ ܡܲܨܝܵܐ ܕܐܵܟܹ̇ܠܩܲܪܨܵܐ ܢܚܘܼܪ ܒܐܲܠܵܗܵܐ ܀</l>
+                <l n="59">:ܡ̇ܕܹܝܢ ܙܵܕܹܩ ܕܠܵܘ ܐܲܝܟ ܫܸܡܥܵܐ <app xml:id="a59-1"><lem xml:id="l59-1" wit="#B #C">ܢܨܘܼܬ</lem><rdg xml:id="r59-1" wit="#A">ܢܨܘܼܪ</rdg></app> ܣܘܼܟܵܠܵܐ</l>
+                <l n="60">ܠܕܲܠܓܼܵܘ ܢܸܒܼܨܸܐ ܘܠܵܐ ܢܸܬܿܬܲܩܲܠ ܒܒܲܪ݁ܵܝܵܬܼܵܐ ܀</l>
+                <l n="61">:ܒܗܵܕܹܐ <app xml:id="a61-1"><lem xml:id="l61-1" wit="#A">ܬܸܢܘܲܝ</lem><rdg xml:id="r61-1" wit="#B #C">ܬܸܢܘܵܝ</rdg></app> ܐܸܡܲ݁ܪ ܕܐܸܬܼܵܘ ܒܢܲܝ̈ ܙܲܕܿܝܼܩܵܐ</l>
+                <l n="62">ܠܡܸܦܪܲܥ ܢܸܕܼܪܵܐ ܕܫܲܦܝܘܼܬܼ ܢܲܦܫܵܐ ܠܗܵܘ̇ ܚܵܙܹ̇ܐ ܟܠ ܀</l>
+                <l n="63">:ܒܝܼܫܵܐ ܐܸܬܼܵܐ ܕܢܹܐܟܼܘܿܠ ܩܲܪܨܵܐ ܕܐܝܼܘܿܒܼ ܟܹܐܢܵܐ</l>
+                <l n="64">ܠܵܘ ܕܲܢܩܲܪܸܒܼ ܕܸܒܼܚܹ̈ܐ ܕܚܘܼܒܵܐ ܐܲܝܟ ܙܲܕܿܝܼܩܹ̈ܐ ܀</l>
+                <l n="65">:ܠܚܘܼܫܵܒܼ ܢܸܟܼܠܹܗ ܨܒܼܵܐ ܕܲܢܦܲܪܣܸܐ ܒܥܸܠܬܹܗ ܕܐܝܼܘܿܒܼ</l>
+                <pb edRef="#B" n="170"/>
+                <l n="66">ܟܲܕܼ ܡܲܠܸܦ ܠܲܢ ܕܗܵܢܵܘ̇ ܗܸܪܓܹܿܗ ܕܠܘܼܩܒܲܠ ܟܹܐܢܹ̈ܐ ܀</l>
+                <l n="67">:ܪܲܒܿܘܼܬܼ ܥܘܼܬܼܪܹܗ ܕܐܝܼܘܿܒܼ ܟܹܐܢܵܐ ܚܙ̣ܵܐ ܣܵܩܘܿܪܵܐ</l>
+                <l n="68">ܘܕܲܠܚܹܗ ܚܣܵܡܵܐ ܕܲܠܡܵܢ ܟܲܗܝܼܢ ܘܢܵܨܲ̇ܚ ܒܐܲܪܥܵܐ ܀</l>
+                <cb edRef="#C" n="2"/>
+                <l n="69">:ܫܸܡ ܕܘܼܒܵܪ̈ܵܘܗܝ ܕܬܲܡܝܼܡ ܘܲܬܼܪܝܼܨ ܫܡ݂ܲܥ ܚܲܣܵܡܵܐ</l>
+                <l n="70">ܘܙܲܩܬ݂ܲܘܼܗܝ ܩܵܠܹ̈ܐ ܕܟܼܠܢܵܫ ܬܵܢܹ̇ܐ ܥܲܡܠܵܘ̈ܗܝ ܕܐܝܼܘܿܒܼ ܀</l>
+                <l n="71">:ܒܩܵܠ ܒܵܪܘܿܝܵܐ ܡܸܬܼܢܲܓܲܕܼ ܗ̄ܘ̣ܵܐ ܐܵܟܹ̇ܠܩܲܪܨܵܐ</l>
+                <l n="72">ܕܡܲܟܼܪܸܙ ܟܠܫܵܥ ܥܲܠ ܟܹܐܢܘܼܬܹܗ ܘܬܲܡܝܼܡܘܼܬܹܗ ܀</l>
+                <l n="73">:ܛܸܒܵܐ ܕܥܲܡܠܵܘ̈ܗܝ ܘܲܕܼܙܸܕܼܩܵܬܹ̈ܗ ܦܪ݂ܲܚ ܒܲܒܼܪܝܼܬܼܵܐ</l>
+                <l n="74">ܘܒܲܕܼܡܘܼܬܼ ܓܹܐܪܵܐ ܒܠܲܥ̣ ܒܲܚܵܣܵܐ ܒܫܲܦܝܼܪ̈ܵܵܬܹܗ ܀</l>
+                <l n="75">:ܛܢܵܢܵܐ ܕܪܘܼܓܼܙܵܐ ܫܵܓܲܪ ܗ̄ܘ̣ܵܐ ܠܹܗ ܠܗܵܘ̇ ܚܲܣܵܡܵܐ</l>
+                <l n="76">ܕܡ̇ܢܲܐ ܗ̄ܝܼ ܗܵܕܹܐ ܕܥܲܡ ܩܸܢܝܵܢܹ̈ܐ ܐܵܦ ܕܘܼܒܵܪܹ̈ܐ ܀</l>
+                <l n="77">:ܒܢܘܼܪܵܐ ܕܚܸܡܬܼܵܐ ܡܸܬܼܓܵܘܙܲܠ ܗ̄ܘ̣ܵܐ ܐܸܟܹ̇ܠ ܩܲܪܨܵܐ<app><lem wit="#A">ܐܸܟܹ̇ܠ ܩܲܪܨܵܐ</lem><rdg wit="#B #C">ܐܸܟܹ̇ܠܩܲܪܨܵܐ</rdg></app></l>
+                <l n="78">ܕܒܲܐܝܠܹܝܢ <app xml:id="a78-1"><lem xml:id="l78-1" wit="#A #B">ܦܘܼܪ̈ܣܹܐ</lem><rdg xml:id="r78-1" wit="#C">ܦܘܼܪܣܹܐ</rdg></app> ܢܲܝܬܸܿܐ ܠܓܸܠܝܵܐ ܢܼܟܼܠܹܗ ܟܲܣܝܵܐ ܀</l>
+                <l n="79">:ܗܘ̤ ܥܲܡ ܢܲܦܫܹܗ ܐܸܣ݂ܲܪ ܐ̄ܪܵܙܵܐ ܘܪܲܟܸܿܒܼ <app xml:id="a79-1"><lem xml:id="l79-1" wit="#A">ܬܸܢܘܲܝ</lem><rdg xml:id="r79-1" wit="#B #C">ܬܸܢܘܵܝ</rdg></app></l>
+                <pb edRef="#A" n="257"/>
+                <l n="80">ܕܡܹܐܟܲܠܩܲܪܨܵܐ ܡܨܸܐ ܕܲܢܨܲܚܸܐ ܥܲܡܠܵܘ̈ܗܝ ܕܐܝܼܘܿܒܼ ܀</l>
+                <l n="81">:ܒܗܵܕܹܐ <app xml:id="a81-1"><lem xml:id="l81-1" wit="#A">ܬܸܢܘܲܝ</lem><rdg xml:id="r81-1" wit="#B #C">ܬܸܢܘܵܝ</rdg></app> ܐܸܡ݂ܲܪ ܕܐܸܬܼܵܐ ܩܕܼܵܡ ܐܲܠܵܗܵܐ</l>
+                <l n="82">ܕܢܹܐܟܼܘܿܠ ܩܲܪ̈ܨܵܘܗܝ ܕܟܹܐܢܵܐ ܐܝܼܘܿܒܼ ܕܠܵܘ ܙܲܕܿܝܼܩܵܐ ܗ̄ܘ̣ ܀</l>
+                <l n="83">:ܗܘ̤ ܥܲܡ ܢܲܦܫܹܗ ܠܵܘ ܥܲܡ ܟܲܣܝܵܐ ܡܲܠܸܠ ܘܐܸܡ݂ܲܪ</l>
+                <l n="84">ܕܚܸܕܼܪܹܬܼ ܒܐܲܪܥܵܐ ܘܦܸܪܣܹ̇ܬܼ ܢܸܫܒܲܝ̈ ܠܲܡܨܵܕ ܐ̄ܢܵܫܵܐ ܀</l>
+                <l n="85">:ܐܝܼܘܿܒܼ ܒܲܠܚܘܿܕܼ ܦܲܣܸܩ ܢܸܫܒܲܝ̈ ܘܬܲܒܲܪ ܦܲܚܲܝ̈</l>
+                <l n="86">ܘܠܵܐ ܐܸܬܼܥܲܪܩܲܠ ܒܲܡܨܸܝ̈ܕܼܵܬܼܵܐ ܘܩܸܛܪ̈ܲܝ ܥܵܘ̣ܠܵܐ ܀</l>
+                <l n="87">:ܟܲܗܝܼܢ ܒܐܲܪܥܵܐ ܘܲܚܠܝܼܡ ܓܘܼܫܡܹܗ ܘܚܝܼܨ ܪܸܥܝܵܢܹܗ</l>
+                <l n="88">ܘܢܵܨ̇ܲܚ ܛܸܒܵܐ ܕܫܲܦܝܼܪ݁ܵܬܹܗ <app xml:id="a88-1"><lem xml:id="l88-1" wit="#A #B">ܒܐܲܪܒܲܥ ܦܸܢ̈ܝܵܢ</lem><rdg xml:id="r88-1" wit="#C">ܒܐܲܪܒܲܥܦܸܢ̈ܝܵܢ</rdg></app> ܀</l>
+                <l n="89">:ܕܐܸܩܪܘܿܒܼ ܘܐܸܒܼܩܹܝܘܗܝ ܠܵܐ ܡܲܦܸܣ ܠܝܼ <app xml:id="a89-1"><lem xml:id="l89-1" wit="#A #C">ܪܸܡܙܹܗ ܕܡ̇ܪܹܗ</lem><rdg xml:id="r89-1" wit="#B">ܪܸܡܙܵܐ ܕܡ̇ܪܹܗ</rdg></app></l>
+                <pb edRef="#B" n="171"/>
+                <l n="90">ܕܐܲܝܟ ܐܲܬܼܠܹܝܛܵܐ ܠܒܼܝܼܫ ܘܲܡܙܲܝܲܢ ܒܚܹܝܠ ܥܘܼܕܼܪܵܢܹܗ ܀</l>
+                <l n="91">:ܚܹܝܠ ܒܵܪܘܿܝܵܐ ܟܠ̣ܵܢܝ ܡ̣ܢ ܨܹܐܕܼܵܘܗܝ ܕܐܲܩܪܸܒܼ ܥܲܡܹܗ</l>
+                <l n="92"><app xml:id="a92-1"><lem xml:id="l92-1" wit="#A #B">ܘܐܸܠܘܼܠܵܐ</lem><rdg xml:id="r92-1" wit="#C">ܘܐܸܠܘܼ ܠܵܐ</rdg></app> ܗܘ̤ ܟܒܲܪ ܐܲܝܟ ܟܠܢܵܫ ܚܵܣܹ̇ܝܢ ܗ̄ܘܹ̇ܝܬܼ ܠܹܗ ܀</l>
+                <l n="93">:ܡܲܢ ܕܹܝܢ <app xml:id="a93-1"><lem xml:id="l93-1" wit="#A">ܝܲܗ̣̄ܒܼ ܠܝܼ</lem><rdg xml:id="r93-1" wit="#B #C">ܝܲܗ̣̄ܒܼܠܝܼ</rdg></app>ܐܲܬܼܪܵܐ ܕܐܸܡܚܹܝܘܗܝ ܒܝܲܕܼ ܩܸܢܝܵܢܵܘ̈ܗܝ</l>
+                <l n="94">ܘܢܹܐܠܲܦ ܟܠܢܵܫ ܕܡ̣ܢ ܡ̇ܝܘܿܬܹ̈ܐ ܗ̄ܘ̣ ܠܒܼܝܼܫܲܝ̈ ܚܲܫܹ̈ܐ ܀</l>
+                <l n="95">:ܒܟܲܗܝܼܢܘܼܬܹܗ ܚܠܝܼܡ ܪܸܥܝܵܢܹܗ ܥܲܡ ܗܲܕܵܡ̇ܘ̈ܗܝ</l>
+                <l n="96">ܘܐܸܠܘܼ ܐܸܬܿܬܿܥܝܼܩ ܒܝܲܕ ܩܸܢܝܵܢܵܘ̈ܗܝ ܡܸܬܼܪܲܦܸܐ ܗ̄ܘ̣ܵܐ ܀</l>
+                <l n="97">:ܠܵܐ ܡܲܟܸܿܟܼܬܹܗ ܡܸܣܟܹܿܢܘܼܬܼܵܐ ܘܚܲܣܝܼܪܘܼܬܼܵܐ</l>
+                <l n="98">ܘܡܸܛܠ ܗܵܕܹܐ ܠܵܐ ܡܸܬܿܬܲܩܲܠ ܒܪܘܼܛܵܢ ܡܸܠܵܘ̈ܗܝ ܀</l>
+                <l n="99">:ܠܵܐ ܚ̣ܛܲܦ ܡܸܢܹܗ ܡ̇ܘܬܵܐ ܝܲܥܢܵܐ ܓܸܙܪܵܐ ܕܐ̄ܢܵܫܵܐ</l>
+                <l n="100">ܘܐܸܠܘ̣ ܬܲܒܿܪܹܗ ܐܸܒܼܠܵܐ ܕܝܲܠܕܵܘ̈ܗܝ ܒ̣ܛܸ݂ܢ ܨܘܿܚ̈ܝܵܬܼܵܐ ܀</l>
+                <l n="101">:ܒܟܲܗܝܼܢܘܼܬܼܵܐ ܡܩܲܛܪܸܓܼ ܗ̄ܘ̣ܵܐ ܠܹܗ ܒܝܼܫܵܐ ܠܐܝܼܘܿܒܼ</l>
+                <l n="102">ܕܥܘܼܬܼܪܹܗ ܓܕ݂ܲܠ ܠܹܗ ܟܠܝܼܠ ܢܸܨܚܵܢܹ̈ܐ ܘܠܵܘ ܨܼܒܼܝܵܢܹܗ ܀</l>
+                <l n="103">:ܠܢܸܟܼܠܹ̈ܐ ܕܪܲܟܸܿܒܼ ܥܲܠ ܙܲܕܿܝܼܩܵܐ ܓܠ̣ܵܐ ܒܵܪܘܿܝܵܐ</l>
+                <l n="104">ܒܝܲܕܼ ܗܵܝ̇ ܕܐܲܟܼܬܸܿܒܼ ܕܲܡܫܲܐܸܠ ܠܹܗ ܐܲܝܟ ܠܵܐ ܝܵ̇ܕܲܥ ܀</l>
+                <l n="105">:ܠܵܘ ܒܵܪܘܿܝܵܐ ܫܲܐܸܠ ܠܒܼܝܼܫܵܐ ܕܢܹܐܠܲܦ ܐܘܼܪܚܹܗ</l>
+                <l n="106">ܘܠܵܐ ܡ̇ܪܘܿܕܼܵܐ ܚܙ̣ܵܐ ܐܵܘ ܡܲܠܸܠ ܥܲܡ ܝܵ̇ܕܲܥ ܟܠ ܀</l>
+                <l n="107">:ܒܗܵܠܹܝܢ ܩܵܠܹ̈ܐ ܡܥܵܕܼ ܒܵܪܘܿܝܵܐ ܠܡܸܬܼܚܲܫܵܚܘܼ</l>
+                <l n="108">ܘܲܠܬܼܘܼܩܵܢܵܘ̈ܗܝ ܡܫܲܐܸܠ ܟܠܫܵܥ ܐܲܝܟ ܠܵܐ ܝܵ̇ܕܲܥ ܀</l>
+                <l n="109">:ܫܲܐܸܠ ܠܐܵܕܵܡ ܕܐܲܝܟܵܐ <app xml:id="a109-1"><lem xml:id="l109-1" wit="C">ܐܲܢ̄ܬܿ</lem><rdg xml:id="r109-1" wit="#A #B">ܐ̄ܢܬܿ</rdg></app> ܐܵܕܸܵܡ ܟܲܕܼ ܚܵܙܹ̇ܐ ܠܹܗ</l>
+                <l n="110">ܘܫܲܐܸܠ ܠܩܵܐܹܝܢ ܕܐܲܝܟܵܘ ܐܲܚܘܼܟ ܘܝ̇ܵܕܲܥ ܕܐܲܝܟܵܘ ܀</l>
+                <l n="111">:ܐܲܫܡܲܥ ܩܵܠܵܐ ܒܪܘܼܓܼܙܵܐ ܕܵܣܕܼܘܿܡ ܕܐܸܚܘܿܬܼ ܐܸܚܙܸܐ</l>
+                <pb edRef="#C" n="307"/>
+                <cb edRef="#C" n="1"/>
+                <l n="112">ܕܐܸܢ ܐܲܝܟ ܛܸܒܵܐ ܕܐܸܬܼܵܐ ܨܹܐܕܲܝ ܥܒ݂ܲܕܼܘ ܐܵܘ ܫܲܡܠܝܼܘ ܀</l>
+                <l n="113">:ܗܵܪܟܵܐ ܠܒܼܝܼܫܵܐ ܕܡ̣ܢ ܐܲܝܡܸܟܵܐ ܫܲܐܸܠ ܕܐܸܬܲܝܬܿ</l>
+                <pb edRef="#B" n="172"/>
+                <l n="114">ܟܲܕܼ ܡܲܠܸܦ ܠܲܢ ܕܒܲܐܪܥܵܐ ܚܵ̇ܕܲܪ ܘܡܲܛܥܸܐ <app xml:id="a114-1"><lem xml:id="l114-1" wit="#A #B">ܠܐ̄ܢܵܫܵܐ</lem><rdg xml:id="r114-1" wit="#C">ܠܐ̄ܢܵܫ̈ܐ</rdg></app> ܀</l>
+                <l n="115">:ܒܝܲܕܼ ܫܘܼܐܵܠܲܐ ܨܒܼܵܐ ܕܲܢܒܲܕܸܿܩ ܢܸܟܼܠܹܗ ܕܒܼܝܼܫܵܐ</l>
+                <l n="116">ܕܡܹܐܟܲܠ ܩܲܪܨܵܐ ܡܪܲܟܸܿܒܼ ܟܠܫܵܥ ܥܲܠ ܙܲܕܿܝܼܩܹ̈ܐ ܀</l>
+                <pb edRef="#A" n="258"/>
+                <l n="117">:ܗܵܐ ܣܵܡ̣ܬܿ ܠܸܒܵܟ ܥܲܠ ܥܲܒܼܕܿܝ ܐܝܼܘܿܒܼ ܓܠ̣ܵܝܗܝ ܚܘܼܫܵܒܹܗ</l>
+                <l n="118">ܕܠܲܝܬܿ ܐܲܟܼܘܵܬܹܗ ܕܬܲܡܝܼܡ ܘܲܬܼܪܝܼܨ ܘܲܡܝܲܩܲܪ ܠܝܼ ܀</l>
+                <l n="119">:ܦܲܢܝܼ ܒܝܼܫܵܐ ܠܘܵܬܼ ܒܵܪܘܿܝܵܐ ܠܵܘ <app xml:id="a119-1"><lem xml:id="l119-1" wit="#A #C">ܒܲܪ̄ܬܼ</lem><rdg xml:id="r119-1" wit="#B">ܒܲܪܬܼ</rdg></app> ܩܵܠܵܐ</l>
+                <l n="120">ܚܘܼܫܵܒܼ ܢܸܟܼܠܹܗ ܨܒܼܵܐ ܕܢܲܟܼܬܸܿܒܼ ܠܲܢ ܒܝܲܕܼ ܦܘܼܢܵܝܹܗ ܀</l>
+                <l n="121">:<app xml:id="a121-1"><lem xml:id="l121-1" wit="#A #B">ܐܲܢ̄ܬܿ</lem><rdg xml:id="r121-1" wit="#C">ܐܲܢܬ</rdg></app> ܠܲܡ ܐܲܓܸܿܢܬܿ ܐܝܼܕܼܵܐ ܕܪ̈ܲܚܡܹܐ ܥܲܠ ܩܸܢܝܵܢܵܘ̈ܗܝ</l>
+                <l n="122">ܘܲܒܼܥܘܼܕܼܪܵܢܵܟ ܩܢܸܐ ܚܘܼܠܡܵܢܵܐ ܘܟܲܗܝܼܢ ܒܐܲܪܥܵܐ ܀</l>
+                <l n="123">:ܒܚܲܝܠܵܟ ܢܵܨܲܚ ܫܡܹܗ ܒܲܒܼܪܝܼܬܼܵܐ ܐܲܝܟ ܬܲܡܝܼܡܵܐ</l>
+                <l n="124">ܣܲܒܼ ܥܘܼܕܼܪܵܢܵܟ ܘܗܵܐ ܡܸܬܼܓܲܢܸܐ ܡ̣ܢ ܟܠ ܒܲܪܢܵܫ ܀</l>
+                <l n="125">:ܢܲܚܬܵܐ <app xml:id="a125-1"><lem xml:id="l125-1" wit="#A #B">ܕܪ̈ܲܚܡܹܐ</lem><rdg xml:id="r125-1" wit="#C">ܕܪ̈ܲܚܡܲܝܟ</rdg></app> ܦܪܝܼܣ ܥܲܠ ܐܝܼܘܿܒܼ ܐܲܝܟ ܬܲܟܼܣܝܼܬܼܵܐ</l>
+                <l n="126">ܬܠܝܼ ܝܲܡܝܼܢܵܟ ܘܗܵܐ ܡܸܬܼܓܼܠܝܵܐ ܣܲܢܝܘܼܬܼ ܢܲܦܫܹܗ ܀</l>
+                <l n="127">:ܕܲܗܒܼܵܐ ܕܡܸܠܬܼܵܟ ܩܪܝܼܡ ܥܲܠ ܙܹܐܦܵܐ ܕܣܲܢܝܘܼܬܼ ܢܲܦܫܹܗ</l>
+                <l n="128">ܘܒܹܗ ܡܸܬܼܩܲܒܲܠ ܢܚܵܫܹܗ ܟܲܣܝܵܐ ܒܲܕܡܘܼܬܼ ܕܲܗܒܼܵܐ ܀</l>
+                <l n="129">:ܗܲܒܼܠܝܼ ܕܐܸܒܼܩܹܝܘܗܝ ܒܚܘܼܣܪܵܢ <app xml:id="a129-1"><lem xml:id="l129-1" wit="#A #B">ܢܸܟܼܣܵܘ̈ܗܝ</lem><rdg xml:id="r129-1" wit="#C">ܢܸܟܼܣܵܘ̈</rdg><note target="r129-1">It appears the scribe wrote in the heh and yudh above the line at this point, but the photograph is difficult to make out.</note></app> ܐܲܝܟ ܕܲܒܼܟܼܘܼܪܵܐ</l>
+                <l n="130">ܘܐܸܓܼܠܹܝܘܗܝ ܠܙܹܐܦܵܐ ܕܪܲܦܝܘܼܬܼ ܢܲܦܫܹܗ ܕܠܵܘ ܫܲܪܝܼܪܵܐ ܗ̄ܘ̣ ܀</l>
+                <l n="131">:ܒܟܼܗܝܼܢܘܼܬܹܗ ܚܠܝܼܡ ܪܸܥܝܵܢܹܗ ܘܠܵܐ ܡܸܬܼܪܲܦܸܐ</l>
+                <l n="132">ܒܪܲܒܿܘܼܬܼ ܢܸܟܼܣܵܘ̈ܗܝ ܪܵܡ̇ܐ ܪܘܼܚܹܗ ܐܲܝܟ ܫܲܪܝܼܪܵܐ ܀</l>
+                <l n="133">:ܡ̣ܢ ܡ̇ܝܘܿܬܹ̈ܐ ܗ̄ܘ̣ ܠܒܼܝܼܫܲܝ̈ ܚܲܫܹ̈ܐ ܓܒܼܝܼܠ ܡ̣ܢ ܥܲܦܪܵܐ</l>
+                <l n="134">ܘܐܸܢ ܥܵܒܼܲ݁ܪ ܒܹܗ ܢܲܗܪܵܐ ܕܨܸܢ̈ܥܵܬܼܝ ܡܸܬܿܬܿܪܸܐ ܡܸܕܼܪܹܗ ܀</l>
+                <l n="135">:ܦܬܲܚ ܠܝܼ ܬܲܪܥܵܐ ܕܐܸܥܘܿܠ ܨܹܐܕܼܵܘܗܝ ܒܝܲܕܼ ܩܲܛܝܼܢܘܼܬܼܝ</l>
+                <l n="136">ܘܡܲܬܼܘܲܗ ܐ̄ܢܵܐ ܠܹܗ ܒܛܸܒܹ̈ܐ ܒܝܼܫܹ̈ܐ ܘܙܵܐܲܥ ܠܸܒܸܿܗ ܀</l>
+                <l n="137">:ܠܲܝܬܿ ܡ̇ܝܘܿܬܼܵܐ ܕܠܵܐ ܟܵܪܝܵܐ ܠܹܗ ܒܐܲܒܼܕܵܢ ܢܸܟܼܣܵܘ̈ܗܝ</l>
+                <pb edRef="#B" n="173"/>
+                <l n="138">ܘܠܲܝܬܿ ܚܵܫ̇ܘܿܫܵܐ ܕܠܵܐ ܡܸܬܼܪܲܦܸܐ ܒܛܸܒܵܐ ܒܝܼܫܵܐ ܀</l>
+                <l n="139">:ܗܵܠܹܝܢ ܗܘ̤ ܒܹܗ ܡܸܬܼܚܲܫܲܒܼ ܗ̄ܘ̣ܵܐ <app xml:id="a139-1"><lem xml:id="l39-1" wit="#A">ܐܵܟܹ̇ܿܠ ܩܲܪܨܵܐ</lem><rdg xml:id="r139-1" wit="#B #C">ܐܵܟܹ̇ܿܠܩܲܪܨܵܐ</rdg></app></l>
+                <l n="140">ܘܠܵܘ ܥܲܡ ܡ̇ܪܹܗ ܥܢܸܐ ܗ̄ܘ̣ܵܐ ܡܡܲܠܸܠ ܗܵܘ̇ ܡܲܪܵܚܵܐ ܀</l>
+                <l n="141">:ܚܲܝܠܵܐ ܕܡܸܠܹ̈ܐ ܪܫܝܼܡ ܒܲܟܼܬܵܒܹ̈ܐ ܐܲܝܟ ܗܵܘ̇ ܕܲܗ̤ܘܲܝ̈</l>
+                <l n="142">ܠܵܐ ܕܹܝܢ ܡܲܠܸܠ ܟܲܣܝܵܐ ܡܸܡܬܼܘܿܡ ܥܲܡ ܡ̇ܪܘܿܕܼܵܐ ܀</l>
+                <l n="143">:ܒܪܸܡܙܵܐ ܝܲܗ̣̄ܒܼ ܠܹܗ ܐܲܬܼܪܵܐ ܠܒܼܝܼܫܵܐ ܒܙܵܘܥܹ̈ܐ ܟܣܲ̈ܝܵܐ</l>
+                <l n="144">ܐܲܝܟ ܡ̇ܐ ܕܣܵܥܲ݁ܪ ܨܹܝܕܼ ܪ̈ܘܼܚܵܢܹܐ ܟܲܕܼ ܡܸܫܬܲܠܚܝܼܢ ܀</l>
+                <l n="145">:ܓܠ̣ܵܐ ܠܹܗ ܪܸܡܙܵܐ <app xml:id="a145-1"><lem xml:id="l145-1" wit="#A">ܠܵܐܟܹ̇ܠ ܩܲܪܨܵܐ</lem><rdg xml:id="r145-1" wit="#B #C">ܠܵܐܟܹ̇ܠܩܲܪܨܵܐ</rdg></app> ܩܲܛܝܼܢܵܐܝܼܬܼ></l>
+                <l n="146">ܕܗܵܐ ܡܲܫܠܲܡ ܠܵܟ ܟܠܡܵܐ ܕܲܩܢܸܐ ܐܝܼܘܿܒܼ ܒܐܲܪܥܵܐ ܀</l>
+                <l n="147">:ܚܙ̣ܵܐ ܡ̇ܪܘܿܕܼܵܐܬ ܕܐܲܗܡܝܼ ܛܵܒܼܵܐ ܡ̣ܢ ܒܲܪ <app xml:id="a147-1" type="correction"><lem xml:id="l147-1">ܒܲܝܬܹܿܗ</lem><rdg xml:id="r147-1" wit="#A #B #C">ܒܲܝܬܹܿܗ</rdg></app></l>
+                <l n="148">ܘܟܲܢܸܫ ܚܲܝܠܵܘ̈ܗܝ ܐܲܝܟ ܕܠܲܩܪܵܒܼܵܐ ܠܘܼܩܒܲܠ ܐܝܼܘܿܒܼ ܀</l>
+                <l n="149">:ܒܝܲܕܼ ܩܸܢܝܵܢܵܘ̈ܗܝ ܣܒ݂ܲܪ ܡܲܪܵܚܵܐ ܕܡܲܪܗܸܒܼ ܗ̄ܘ̣ܵܐ ܠܹܗ</l>
+                <l n="150">ܘܒܲܐܒܼܕܵܢ ܢܸܟܼܣܵܘ̈ܗܝ ܒܥ̣ܵܐ ܕܲܢܪܲܦܸܐ ܠܒܸܢܝܵܢ ܢܲܦܫܹܗ ܀</l>
+                <l n="151">:ܠܵܐ ܝܵ̇ܕܲܥ ܗ̄ܘ̣ܵܐ ܕܠܝܼܚ ܒܲܚܣܵܡܵܐ ܕܠܘܼܩܒܲܠ ܟܹܐܢܹ̈ܐ</l>
+                <pb edRef="#A" n="259"/>
+                <l n="152">ܕܠܵܐ ܕܵܠܲܚ̇ ܠܵܗ̇ ܠܫܲܦܝܘܼܬܼ ܢܲܦܫܹܗ ܩܵܠ ܚܘܼܣܪܵܢܵܐ ܀ </l>
+                <l n="153">:ܐܲܝܟ ܚܵܫܘܿܫܵܐ ܚܵܐܲ݁ܪ ܗ̄ܘ̣ܵܐ ܒܹܗ ܪܦܸܐ ܪܥܝܵܢܵܐ</l>
+                <l n="154">ܘܠܵܐ ܝܵ̇ܕܲܥ ܗ̄ܘ̣ܵܐ ܕܚܵܣܹ̇ܢ ܚܲܫܵܘ̈ܗܝ ܒܝܲܕܼ ܚܘܼܡܣܵܢܹܗ ܀</l>
+                <cb edRef="#C" n="2"/>
+                <l n="155">:ܠܵܘ ܟܲܣ̈ܝܵܬܼܵܐ ܕܠܸܒܵܐ ܒܵܕܹܩ ܐܲܝܟ ܒܵܪܘܿܝܵܐ</l>
+                <l n="156">ܘܠܵܐ ܚܘܼܫܵܒܼܵܐ ܕܢܲܦܫܵܐ <app xml:id="a156-1"><lem xml:id="l156-1" wit="#A #B">ܒܵܨܹ̇ܐ</lem><rdg xml:id="r156-1" wit="#C">ܒܵܨ̇ܪ</rdg></app> ܐܲܝܟ ܝܵ̇ܕܲܥ ܟܠ ܀</l>
+                <l n="157">:،ܘܐܸܠܘܼ ܡܦܵܣ ܗ̄ܘ̣ܵܐ ܩܕܼܵܡ ܬܲܟܼܬܿܘܼܫܵܐ <app xml:id="a157-1"><lem xml:id="l157-1" wit="#A">ܕܲܡܚܵܒܼ</lem><rdg xml:id="r157-1" wit="#B">ܕܡܸܚܲܒܼ</rdg><rdg xml:id="r157-2" wit="#C">ܕܡܚܒܼ</rdg></app> ܚܵܐܹ̇ܒܼ<note target="a157-1" xml:lang="eng">This form appears to be a rare infinitive absolute, used here as an intensifier with the subsequent active participle. <ref target="#A">A</ref> takes the root to be <foreign xml:lang="syr">ܚܘܒ</foreign>, "to be guilty, to be defeated" whereas <ref target="#B">B</ref> manuscript takes this to be from <foreign xml:lang="syr">ܚܒܒ</foreign>, "to be inflamed, kindled". <ref target="#C">C</ref> gives no vocalization for the infinitive, and since the active participle forms are identical for both roots, it is unclear which the scribe intended. Contextually, <ref target="#A">A</ref>'s reading makes the most sense.</note></l>
+                <l n="158">ܠܵܐ ܢܵܚܹ̇ܬܼ ܗ̄ܘ̣ܵܐ ܠܕܲܪܵܐ ܩܲܫܝܵܐ ܕܥܲܡ ܙܲܕܲܝܼܩܵܐ ܀</l>
+                <l n="159">:ܒܠܵܐ ܝܼܕܲܥܬܼܵܐ ܙܲܝܹܢ ܢܲܦܫܹܗ ܘܥܲܠ̣ ܠܲܩܪܵܒܼܵܐ</l>
+                <l n="160">ܘܫܲܪܝܼ ܕܢܸܫܕܸܿܐ <app xml:id="a160-1"><lem xml:id="l160-1" wit="#C">ܓܹܐܪܸ̈ܐ</lem><rdg xml:id="r160-1" wit="#A #B">ܓܹܐܪܵܐ</rdg></app> ܕܚܸܡܬܹܗ ܒܩܸܢܝܵܢ ܟܹܐܢܵܐ ܀</l>
+                <l n="161">:ܗܘ̤ܵܐ ܠܲܡ ܝܵܘܡܵܐ ܕܲܟܼܢܝܼܫܝܼܢ ܒܹܗ ܝܲܠܕܵܘ̈ܗܝ ܕܐܝܼܘܿܒܼ</l>
+                <pb edRef="#B" n="174"/>
+                <l n="162">ܘܡܲܠܲܐܟ ܒܝܼܫܵܐ ܐܲܝܬܿܝܼ ܣܒܲܪܬܼܵܐ ܕܓܼܝܣܵܐ ܕܲܢܦܲܠ̣ ܀</l>
+                <l n="163">:<app xml:id="a163-1"><lem xml:id="l163-1" wit="#A">ܐ̄ܬܼܵܐ</lem><rdg xml:id="r163-1" wit="#B">ܐܬ̣ܵܐ</rdg><rdg xml:id="r163-2" wit="#C">ܐܬ̣ܐ</rdg></app> ܐܝܼܙܓܲܕܵܐ ܠܘܵܬܼ ܙܲܕܼܝܼܩܵܐ ܘܲܪܗܝܼܒܼ <app xml:id="a163-2"><lem xml:id="l163-2" wit="#A">ܩܵܠܵܐ</lem><rdg xml:id="r163-3" wit="#B">ܩܠܵܐ</rdg><rdg xml:id="r163-4" wit="#C">ܩܵܠܸ̇ܐ</rdg><note target="l163-2" resp="MINGANA">.ܟܒܲܪ (( ܩܵܠܸܗ )) ܚܲܬܝܼܬ<note type="translation" resp="#WLP">, perhaps "his lightness" is the correct version.</note></note></app></l>
+                <l n="164">ܕܢܲܬܼܘܲܗ ܡܸܢܫܹܠܝ ܠܠܸܒܵܐ ܬܲܩܢܵܐ <app xml:id="a164-1"><lem xml:id="l164-1" wit="#A #B">ܒܛܸܒܵܐ ܪܗܝܼܒܼܵܐ</lem><rdg xml:id="r164-1" wit="#C">ܒܛܸܒܹ̈ܐ ܪ̈ܗܝܼܒܼܹܐ</rdg></app> ܀</l>
+                <l n="165">:ܢܦ݂ܲܠ ܠܲܡ ܓܲܝܣܵܐ ܘܲܕܒܲܪ ܬܵܘܪܹ̈ܐ ܥܲܡ ܐܲܬܵܢܹ̈ܐ</l>
+                <l n="166"><app xml:id="a166-1"><lem xml:id="l166-1" wit="#A #C">ܘܡܝܼܬܼܘ</lem><rdg xml:id="r166-1" wit="#B">ܘܡܝܼܬܼ</rdg></app> ܐܲܟܵܪܹ̈ܐ ܘܪ̈ܵܥܵܘܵܬܼܵܐ ܒܪܘܓܼܙܵܐ ܩܲܫܝܵܐ ܀</l>
+                <l n="167">:ܪܲܟܸܿܒܼ ܒܝܼܫܵܐ ܥܸܠܬܼܵܐ ܕܢܲܛܥܸܐ ܒܲܫܡܵܐ ܕܓܲܝܣܵܐ</l>
+                <l n="168"><app xml:id="a168-1"><lem xml:id="l168-1" wit="#A #B">ܘܚܵܘܝܼ ܫܹܐܕܵܐ</lem><rdg xml:id="r168-1" wit="#C">ܘܚܵܘܝܼܘ ܫܹܐܕܹ̈ܐ</rdg></app> ܐܲܝܟ ܫܲܒܵܝܹ̈ܐ ܕܢܦ݂ܲܠܘ ܘܲܕܼܒܲܪܘ ܀</l>
+                <l n="169">:ܐ̄ܢܵܐ ܠܲܡ ܒܲܠܚܘܿܕܼ ܦܸܠ̇ܛܹܬܼ ܡܸܢܹܗ ܕܓܲܝܣܵܐ ܕܲܢܦܲܠ</l>
+                <l n="170">ܘܐܸܬܹܿܝܬܼ ܕܐܸܬܼܢܸܐ ܡܸܕܹܿܡ ܕܲܓܼܕܲܫ ܕܠܵܐ ܚܵܘܣܵܢܵܐ ܀</l>
+                <l n="171">:ܘܥܲܕܼ ܩܲܕܼܡ̇ܝܵܐ ܡܲܫܠܸܡ ܛܸܒܵܐ ܕܓܲܝܣܵܐ ܕܢܲܦܲܠ</l>
+                <l n="172">ܡܲܛܝܼ ܐ̄ܚܪܹܢܵܐ ܘܲܛܥܝܼܢ ܛܸܒܵܐ ܕܥܵܢܹ̈ܐ ܕܐܸܒܼܕܲܬ̤ ܀</l>
+                <l n="173">:ܢܘܼܪܵܐ ܕܪܵܘܡ̇ܐ ܢܸܦܠܲܬ̤ <app xml:id="a173-1"><lem xml:id="l173-1" wit="#A #B">ܡ̣ܢ ܫܹܠܝ</lem><rdg xml:id="r173-" wit="#C">ܡ̣ܢܫܹܠܝ</rdg></app> ܒܲܕܼܡܘܼܬܼ ܒܲܪܩܵܐ</l>
+                <l n="174">ܘܝܸܩܕܲܬ̤ <app xml:id="a174-1"><lem xml:id="l174-1" wit="#B #C">ܥܵܢ̈ܐ</lem><rdg xml:id="r174-1" wit="#A">ܥܵܢ̈ܵܐ</rdg></app> ܘܪ̈ܵܥܵܘܵܬܼܵܐ ܒܫܲܠܗܹܒܼܝܼܬܼܵܐ ܀</l>
+                <l n="175">:ܐ̄ܢܵܐ ܠܲܡ ܒܲܠܚܘܿܕܼ ܦܵܫܹ̇ܬܼ ܬܲܡ̇ܢ ܕܐܲܝܬܸܿܐ ܣܒܲܪܬܼܵܐ</l>
+                <l n="176">ܕܠܵܘ ܟܹܐܢܵܐܝܼܬܼ ܣܥܲܪ ܒܵܪܘܿܝܵܐ ܨܹܝܕܼ ܩܸܢܝܵܢܲܝ̈ܟ ܀</l>
+                <l n="177">:ܚܘܼܒܼܠܹ̈ܐ ܒܝܼܫܹ̈ܐ ܦܲܪ̣ܥܵܟ ܡ̇ܪܵܟ ܚܠܵܦ ܙܸܕܼ̈ܩܵܬܼܟ</l>
+                <l n="178"><app xml:id="a178-1"><lem xml:id="l178-1" wit="#A #B">ܕܐܲܚܸܬܼ</lem><rdg xml:id="r178-1" wit="#C">ܘܕܐܲܚܸܬܼ</rdg></app> ܢܘܼܪܵܐ ܘܓܲܡܲܪ ܥܵܢ̈ܵܐ ܕܠܵܐ ܚܵܘܣܵܢܵܐ ܀</l>
+                <l n="179">:ܐܘܿ ܠܲܢܟܼܝܼܠܵܐ ܕܲܛܡ݂ܲܪ ܦܲܚܹ̈ܐ ܘܟܲܣܝܼ ܐܸܢܘܼܢ</l>
+                <l n="180">ܕܠܵܐ ܢܸܬܼܝܲܕܼܥܘܼܢ ܠܐܲܝܢܵܐ ܕܪܵܕܹܐ ܬܲܡܝܼܡܵܐܝܼܬܼ ܀</l>
+                <l n="181">:ܫܲܓܼܫܹܗ ܠܐܵܐܲܪ ܘܐܵܣܸܦ ܢܘܼܪܵܐ ܘܐܵܘܩܸܕܼ ܥܵܢ̈ܵܐ</l>
+                <l n="182">ܘܩܵܡ̣ ܕܲܢܨܲܚܸܐ ܒܥܵܘ̣ܠܵܐ ܕܲܣܥ݂ܲܪ ܠܡܵܪܹܗ ܕܐܝܼܘܿܒܼ ܀</l>
+                <l n="183">:ܗܘ̤ ܠܲܡ ܐܲܚܸܡ ܢܘܼܪܵܐ ܕܝܼܠܹܗ ܘܝܸܩܕܲܬ̤ ܥܵܢ̈ܵܐ</l>
+                <l n="184">ܘܠܵܐ ܐܲܩܸܨ ܠܵܟ ܕܸܒܼܚܹ̈ܐ ܕܟܲܝܹ̈ܐ ܕܲܡܩܲܪܸܒܼ ܗ̣̄ܘܲܝܬܿ ܀</l>
+                <l n="185">:ܠܵܐ ܫܠܸܡ ܛܸܒܵܐ ܕܝܲܩܕܵܢ ܥܵܢܹ̈ܐ ܘܪ̈ܵܥܵܘܵܬܼܵܐ</l>
+                <pb edRef="#B" n="175"/>
+                <l n="186">ܘܐܸܬܼܵܐ ܐ̄ܚܪܹܢܵܐ ܕܛܲܥܝܼܢ ܛܸܒܵܐ ܕܓܼܡܠܹ̈ܐ ܕܐܸܒܲܕܼܘ ܀</l>
+                <l n="187">:ܬܠܵܬܼ ܠܲܡ ܓܘܼܕܲܝܼ̈ܢ ܗܘ̤ܵܘ ܟܲܠܕܵܝܹ̈ܐ ܠܲܬܼܠܵܬܼ ܪ̈ܘܼܚܝܼܢ</l>
+                <pb edRef="#A" n="260"/>
+                <l n="188">ܘܲܕܼܒܲܪܘ ܓܼܡܠܹ̈ܐ ܘܲܩܛܲܠܘ <app xml:id="a188-1"><lem xml:id="l188-1" wit="#A #B">ܐ̄ܢܵܫܵܐ</lem><rdg xml:id="r188-1" wit="#C">ܐ̄ܢܫ̈ܐ</rdg></app> ܘܐܸܢܵܐ ܗ̄ܘ̣ ܦܵܫܹ̇ܬܼ ܀</l>
+                <l n="189">:ܬܠܵܬܼܵܐ ܓܹܐܪ̈ܝܼܢ ܫܕܼܵܐ ܡ̇ܪܘܿܕܼܵܐ ܒܛܸܒܹܿ̈ܐ ܬܠܵܬܼܵܐ</l>
+                <l n="190">ܘܠܵܐ ܒܸܪܨܲܬ̤ ܒܹܗ ܚܕܼܵܐ ܠܘܿܠܝܼܬܼܵܐ ܒܙܲܝܢܹܗ ܕܐܝܼܘܿܒܼ ܀</l>
+                <l n="191">:ܬܠܵܬܼ ܣܲܒܼܪ݁ܵܬܼܵܐ ܡܥܝܼܩܵܢ̈ܝܵܬܼܵܐ ܐܲܦܸܠ ܒܐܸܕܼܢܵܘ̈ܗܝ</l>
+                <l n="192">ܘܠܵܐ ܐܸܬܿܕܲܠܚܲܬ̤ ܫܲܦܝܘܼܬܼ ܢܲܦܫܹܗ ܒܬܸܛܪܹܗ ܕܒܼܝܼܫܵܐ ܀</l>
+                <l n="193">:ܬܠܵܬܼܵܐ ܥܘܼܩܣܝܼ̈ܢ ܚܲܠܸܦ ܘܲܡ̣ܚܵܝܗܝ ܒܫܸܡܥܹ̈ܐ ܬܠܵܬܼܵܐ</l>
+                <l n="194">ܘܠܵܐ ܦܸܪܚܲܬ̤ ܒܹܗ ܡܸܪܲܬܼ ܢܸܟܠܹܗ ܒܦܲܓܼܪܹܗ ܕܐܝܼܘܿܒܼ ܀</l>
+                <l n="195">:ܬܠܵܬܼ ܙܲܒܼ̈ܢܵܬܼܵܐ ܐܲܥܸܠ ܒܲܚܪܹܗ ܒܟܼܘܼܪ ܒܘܼܚܪܵܢܵܐ</l>
+                <l n="196">ܘܚܵܘܝܼ ܫܘܼܦܪܹܗ ܕܲܗܒܼܵܐ ܕܢܲܦܫܹܗ ܕܲܟܼܡܵܐ ܢܲܗܝܼܪ ܀</l>
+                <l n="197">:ܐܲܫܒܿܝܼ ܬܵܘܪܹ̈ܐ ܘܐܵܘܩܸܕܼ ܥܵܢ̈ܐ ܘܲܕܼܒܲܪ ܓܼܡܠܹ̈ܐ</l>
+                <pb edRef="#C" n="308"/>
+                <cb edRef="#C" n="1"/>
+                <l n="198">ܬܠܵܬܼܵܐ ܢܸܫܒܿܝܼ̈ܢ ܘܦܲܣܸܩ ܐܸܢܘܿܢ ܩܲܠܝܼܠ ܓܸܦܹ̈ܐ ܀</l>
+                <l n="199">:ܬܠܵܬܼ ܙܲܒܼܢܵܬܼ̈ܵܐ ܢܚܸܬܼ ܠܐܵܓܼܘܿܢܵܐ ܐܲܬܼܠܹܝܛ ܥܵܘ̣ܠܵܐ</l>
+                <l n="200">ܘܒܲܬܼܠܵܬܲܝ̈ܗܹܝܢ ܣܠܸ̣݂ܩ ܟܲܕܼ ܒܲܗܝܼܬܼ ܕܠܵܐ ܙܵܟܼܘܼܬܼܵܐ ܀</l>
+                <l n="201">:ܗ̤ܘܲܝ̈ ܨܸܢܥܵܬܹ̈ܗ ܒܲܛܝܼ̈ܠܵܬܼܵܐ ܠܘܵܬܼ ܬܲܡܝܼܡܵܐ</l>
+                <l n="202">ܘܠܵܐ ܐܸܬܼܥܲܪܩܲܠ ܒܲܡܨܝܼ̈ܕܵܬܼܵܐ ܕܐܘܼܡ̇ܢܘܼܬܹܗ ܀</l>
+                <l n="203">:ܚ̣ܵܒ ܒܐܵܓܼܘܿܢܹ̈ܐ ܬܠܵܬܼܵܐ ܕܲܥܒ݂ܲܕܼ ܐܵܟܹ̇ܠܩܲܪܨܵܐ</l>
+                <l n="204"><app xml:id="a204-1"><lem xml:id="l204-1" wit="#A #B">ܘܚܲܠܸܦ</lem><rdg xml:id="r204-1" wit="#C">ܕܲܟܼܒܲܪ</rdg></app> ܙܲܝܢܵܐ ܘܚܲܕܸܿܬܼ ܕܲܪܵܐ ܕܲܟܼܒܲܪ ܢܸܙܟܸܿܐ ܀</l>
+                <l n="205">:ܒܢܘܼܪܵܐ ܕܚܸܡܬܹܗ ܡܸܬܼܓܵܘܙܲܠ ܗ̄ܘ̣ܵܐ ܗܵܘ̇ ܚܲܣܵܡܵܐ</l>
+                <l n="206">ܕܒܲܐܝܠܹܝܢ ܦܘܼܪ̈ܣܹܐ ܢܙܝܼܥ ܠܐܲܬܼܠܹܝܛܵܐ ܒܝܲܕܼ ܪܘܼܛܵܢܵܐ ܀</l>
+                <l n="207">:ܛܢܵܢܵܐ ܕܪܘܼܓܼܙܹܗ ܫܵܓܲ̇ܪ ܗ̄ܘ̣ܵܐ ܠܵܗ̇ ܠܡܲܪܝܼܪܘܼܬܹܗ</l>
+                    <l n="208">ܘܡܸܫܬܲܠܗܲܒܼ ܗ̄ܘ̣ܵܐ <app xml:id="a208-1"><lem xml:id="l208-1" wit="#A #B #C">ܕܲܢܣܝܼܦ</lem><note target="l208-1" resp="MINGANA">.ܣܵܒܲܪܢܵܐ ((ܕܢܲܣܸܦ)) ܚܲܬܝܼܬ<note type="translation" resp="#WLP">I believe "that he might set fire to" is correct.</note></note></app> ܢܘܼܪܹܗ ܒܝܲܠܕܵܘ̈ܗܝ ܕܐܝܼܘܿܒܼ ܀</l>
+                <l n="209">:ܒܫܘܼܠܵܡ ܛܸܒܵܐ ܕܓܲܡܠܹ̈ܐ ܕܐܸܒܲܕܼܘ ܚܲܕܸܿܬܼ ܛܸܒܵܐ</l>
+                <pb edRef="#B" n="176"/>
+                <l n="210">ܕܡܲܪܝܼܪ ܫܸܡܥܹܗ ܘܗܵܦܹ̇ܟ ܪ̈ܲܚܡܹܐ ܘܕܵܠܲܚ ܢܲܦܫܵܐ ܀</l>
+                <l n="211">:ܒܢܲܝ̈ܟ ܠܲܡ ܫܲܒܼܥܵܐ ܥܲܡ ܐܲܚܘܵܬ̈ܗܘܿܢ ܒܣܵܡܵܐ ܛܲܝܸܒܼܘ</l>
+                <l n="212">ܘܲܠܘܵܬܼ ܒܘܼܟܼܪܵܐ ܟܢ݂ܲܫܘ ܒܐܵܘܝܘܼܬܼܵܐ ܐܲܝܟ ܕܲܡܥܵܕܼܝܼܢ ܀</l>
+                <l n="213">:ܪܘܼܚܵܐ ܩܫܝܼܬܼܵܐ ܢܸܫܒܲܬ̤ ܡܸܢܫܹܠܝ ܕܠܵܐ ܒܲܥܝܵܕܼܵܐ</l>
+                    <l n="214"><app xml:id="a214-1"><lem xml:id="l214-1" wit="#B">ܘܙܵܥܘ</lem><rdg xml:id="r214-1" wit="#A #C">ܘܙܵܥ</rdg></app> ܫܲܬܼܐܸܣܵܘ̈ܗܝ ܕܒܲܝܬܵܐ ܘܲܢܦ݂ܲܠ ܘܲܛ̣ܡܲܪ ܐܸܢܘܿܢ ܀</l>
+                <l n="215">:ܢܦܲܠ̣ ܬܲܛܠܝܼܠܵܐ ܘܲܛܡ݂ܲܪ ܐܸܢܘܿܢ ܠܥܸܣܪ̈ܵܬܢܲܝܗܘܿܢ</l>
+                <l n="216">ܘܚܲܠܸܛ ܕܸܡܗܘܿܢ ܥܲܡ ܟܵܣܲܝ̈ܗܘܿܢ ܒܲܣܡܵܟܲܝ̈ܗܘܿܢ ܀</l>
+                    <l n="217">:ܠܒܹܫ ܡ̇ܪܘܿܕܼܵܐ <app xml:id="a217-1"><lem xml:id="l217-1" wit="#A #C">ܐ̄ܣܟܹܿܝܡ</lem><rdg xml:id="r217-1" wit="#B">ܐܣܟܹܿܝܡ</rdg></app> ܚܵܘܣܵܢܵܐ ܕܢܲܛܥܸܐ ܒܐܝܼܘܿܒܼ</l>
+                <l n="218">ܘܒܲܕܼܡܘܼܬܼ ܪܵܚ̇ܡܵܐ ܚܵܘܝܼ ܢܲܦܫܹܗ ܒܛܸܒܵܐ ܕܲܒܼܢܵܘ̈ܗܝ ܀</l>
+                <l n="219">:ܠܵܐ ܠܲܡ ܡܸܡܬܼܘܿܡ ܓܸܕܼܫܲܬ̤ ܗܵܕܹܐ ܠܘܵܬܼ ܙܲܕܿܝܼܩܹ̈ܐ</l>
+                <l n="220">ܘܠܵܐ ܦܪ݂ܲܥ ܛܵܒܼܵܐ ܗܵܢ ܦܘܼܪܥܵܢܵܐ ܠܲܕܼܪܵܚܹ̇ܡ ܠܹܗ ܀</l>
+                <l n="221">:ܠܘܵܬܼܵܟ ܐܝܼܘܿܒܼ ܗ̣ܦܲܟ ܒܵܪܘܿܝܵܐ ܛܲܟܼܣܵܐ ܕܪ̈ܲܚܡܵܘܗܝ</l>
+                <l n="222">ܘܠܵܐ ܚܠܲܛ ܪ̈ܲܚܡܹܐ ܒܪܘܼܓܼܙܵܐ ܕܐܲܝܬܿܝܼ ܥܲܠ ܩܸܢܝܵܢܲܝ̈ܟ ܀</l>
+                <l n="223">:ܠܵܐ ܣܸܦܩܲܬ̤ ܠܹܗ ܕܐܵܘܩܸܕܼ ܥܵܢ̈ܟ ܘܐܲܫܒܿܝܼ ܓܲܡܠܲܝ̈ܟ</l>
+                <pb edRef="#A" n="261"/>
+                <l n="224">ܘܐܸܫܲܕܼ ܚܸܡܬܹܗ ܥܲܠ ܝܵܪ̈ܘܿܬܲܝܟ ܘܩܲܛܸܠ ܐܸܢܘܿܢ ܀ </l>
+                <l n="225">:ܠܵܘ ܟܹܐܢܵܐܝܼܬܼ ܣܥ݂ܲܪ ܒܵܪܘܿܝܵܐ ܕܲܛܠ݂ܲܡ ܥܲܡܠܝ̈ܟ</l>
+                <l n="226">ܘܢܸܗܘܸܐ ܕܲܐ̄ܚܪܹܝܢ ܣܥ̣ܵܐ ܥܲܠ ܝܲܠܕܲܝ̈ܟ ܡܨܸܐ ܗ̄ܘ̣ܵܐ ܕܢܸܟܼܠܹܝܘܗܝ ܀</l>
+                <l n="227">:ܐܸܢܗܘ̤ ܕܫܲܪܝܼܪ ܚܘܼܒܹܿܗ ܨܹܐܕܲܝܟ ܥܲܠ ܡ̇ܢ ܐܲܗܡܝܼ</l>
+                <l n="228">ܘܐܸܢ ܟܹܐܢܵܐܝܼܬܼ ܦܵܪܲܥ ܥܲܡܠܹ̈ܐ ܠܡܵܢ ܐܲܥܘܸܠ ܒܵܟ ܀</l>
+                <l n="229">:ܐܘܿ ܠܲܢܟܼܝܼܠܵܐ ܕܠܵܐ ܣܸܦܩܲܬ̤ ܠܹܗ ܚܲܪܒܵܐ <app xml:id="a229-1"><lem xml:id="l229-1" wit="#A">ܕܐ̄ܢܵܫܵܐ</lem><rdg xml:id="r229-1" wit="#B">ܕܐܢܵܫܵܐ</rdg><rdg xml:id="r229-2" wit="#C">ܕܐ̄ܢܫ̈ܐ</rdg></app></l>
+                <l n="230">ܘܫܲܪܝܼ ܕܢܹܐܫܘܿܕܼ ܡܸܪܲܬܼ ܪܘܼܓܼܙܹܗ ܥܲܠ ܒܵܪܘܿܝܵܐ ܀</l>
+                <l n="231">:ܗܘ̤ ܠܲܡ ܐܲܫܸܒܼ ܪܘܼܚܵܐ ܕܪܘܼܓܼܙܵܐ ܘܩܲܛܸܠ ܝܲܠܕܲܝ̈ܟ</l>
+                <l n="232">ܘܲܕܼܣܵܥܹ̇ܐ ܠܵܟ ܒܥ̣ܵܐ ܕܲܢܥܝܼܩܵܟ ܒܝܲܕܼ ܝܵܪ̈ܘܿܬܲܝܟ ܀</l>
+                <l n="233">:ܒܕܲܪܵܐ ܕܲܒܼܢܵܘ̈ܗܝ ܣܒܲܪ݂ ܡ̇ܪܘܿܕܼܵܐ ܕܚܵܣܹ̇ܝܢ ܗ̄ܘ̣ܵܐ ܠܹܗ</l>
+                <pb edRef="#B" n="177"/>
+                <l n="234"><app xml:id="a234-1"><lem xml:id="l234-1" wit="#A #B">ܕܕܲܡ</lem><rdg xml:id="r234-1" wit="#C">ܕܕܵܡ</rdg></app> ܥܵܨܹ̇ܐ ܠܹܗ ܚܘܼܒܹܿܗ ܕܝܲܠܕܵܘ̈ܗܝ ܘܡ̇ܵܘܠܸܕܼ ܪܸܛܢܵܐ ܀</l>
+                <l n="235">:ܠܚܲܪܬܼܵܐ ܢܲܛܪܹܗ ܐܵܟܹ̇ܠܩܲܪܨܵܐ ܠܕܵܪܵܐ ܩܲܫܝܵܐ</l>
+                <l n="236">ܕܝܵ̇ܕܲܥ ܕܐܲܣܝܼܪ ܚܘܼܒܵܐ <app xml:id="a236-1"><lem xml:id="l236-1" wit="#A #C">ܕܐ̄ܢܵܫܵܐ</lem><rdg xml:id="r236-1" wit="#B">ܕܐܢܵܫܵܐ</rdg></app> ܠܘܵܬܼ ܝܲܠܕܲܝ̈ܗܘܿܢ ܀</l>
+                <l n="237">:ܬܠܵܬܼܵܐ ܩܪ̈ܵܒܹܐ ܥܒ݂ܲܕ ܡ̇ܪܘܿܕܼܵܐ ܥܲܡ ܙܲܕܿܝܼܩܵܐ</l>
+                <l n="238">ܘܒܲܪܒܼܝܼܥܵܝܵܐ ܣܲܦܸܩ ܓܹܐܪ̈ܵܘܗܝ ܘܩܵܡ̣ ܟܲܕܼ ܒܲܗܝܼܬܼ ܀</l>
+                <l n="239">:ܒܗܵܢ ܬܲܟܼܬܿܘܼܫܵܐ ܬܠܸܐ ܗ̄ܘ̣ܵܐ ܣܲܒܼܪܹܗ ܘܲܡܣܲܟܸܿܐ ܗ̄ܘ̣ܵܐ</l>
+                <l n="240">ܕܫܸܡ <app xml:id="a240-1"><lem xml:id="l240-1" wit="#A #B">ܨܘܿܚܝܼܬܼܵܐ</lem><rdg xml:id="r240-1" wit="#C">ܨܘܚܝ̈ܬܐ</rdg></app> ܢܸܫܡܲܥ ܒܲܠܚܘܿܕܼ ܘܢܸܙܟܹܿܝܘܗܝ ܠܐܝܼܘܿܒܼ ܀</l>
+                <cb edRef="#C" n="2"/>
+                <l n="241">:ܠܵܐ ܓܹܝܪ ܣܸܠܩܲܬ̤ ܪܸܓܲܬܼ ܢܲܦܫܹܗ ܠܘܵܬܼ ܫܘܼܠܵܡܵܐ</l>
+                <l n="242">ܘܠܵܐ ܐܲܢܝܼܚܹܗ ܗܵܘ̇ ܬܲܡܝܼܡܵܐ ܒܫܸܡ ܨܘܿܚܝܼܬܼܵܐ ܀</l>
+                <l n="243">:ܐܘܿ ܐܲܬܼܠܹܝܛܵܐ ܕܙܲܕܿܝܼܩܘܼܬܼܵܐ ܕܲܟܼܡܵܐ ܚܲܡܣܸܢ</l>
+                <l n="244">ܘܠܵܐ ܐܸܬܼܪܲܦܝܼ ܒܝܲܕܼ ܨܸܢ̈ܥܵܬܹܗ ܕܲܒܼܥܸܠܕܲܪܵܐ ܀</l>
+                <l n="245">:ܐܘܿ ܡ̇ܝܘܿܬܼܵܐ ܠܒܼܝܼܫ ܗܲܕܵܡܹ̈ܐ ܕܲܙܟܼܵܐ ܠܚܲܫܹ̈ܐ</l>
+                <l n="246">ܐܘܿ ܒܸܣܪܵܢܵܐ <app xml:id="a246-1"><lem xml:id="l246-1" wit="#A #C">ܕܐܸܚܲܪ</lem><rdg xml:id="r246-1" wit="#B">ܕܐܲܚܝܼܪ</rdg></app> ܕܵܪܵܐ ܥܲܡ ܪܘܼܚܵܢܵܐ ܀</l>
+                <l n="247">:ܐܘܿ ܒܲܪ ܐܵܕܼܵܡ ܥܲܦܪܵܐ ܕܐܲܪܥܵܐ ܕܲܛܥ̣ܵܐ ܟܝܵܢܹܗ</l>
+                <l n="248">ܘܠܵܐ ܦܲܟܲܗܬܹܗ ܪܸܚܡܲܬܼ ܝܲܠܕܸܵܘ̈ܗܝ ܠܚܘܼܒܵܐ ܕܡ̇ܪܹܗ ܀</l>
+                <l n="249">:ܐܘܿ ܪܸܥܝܵܢܵܐ ܟܕܼܝܼܢ ܥܲܡ ܚܲܫܹ̈ܐ ܕܡ̇ܝܘܿܬܼܘܼܬܼܵܐ</l>
+                <l n="250">ܕܠܵܐ ܐܸܬܼܪܲܦܝܼ ܒܚܲܫܵܐ ܕܲܒܼܢܵܘ̈ܗܝ ܠܘܵܬܼ ܪܘܼܛܵܢܵܐ ܀</l>
+                <l n="251">:ܐܘܿ ܐܵܕܼܵܡܘܿܣ <app xml:id="a251-1"><lem xml:id="l251-1" wit="#A #B">ܕܦܲܠܚܹ݂ܗ</lem><rdg xml:id="r251-1" wit="#C">ܕܦܵܠܚܵܗ̇</rdg></app> ܒܝܼܫܵܐ ܒܛܸ̈ܒܹܐ ܩܫܲܝ̈ܵܐ</l>
+                <l n="252">ܘܠܵܐ ܐܸܬܼܪܲܟܲܟ ܒܲܫܡܘܼ̈ܥܵܬܼܵܐ ܡܥܝܼܩܵܢ̈ܝܵܬܼܵܐ ܀</l>
+                <l n="253">:ܠܵܘ ܠܲܟܼܝܵܢܹܗ ܛܥ̣ܵܐ ܡ̇ܝܘܿܬܼܵܐ ܒܚܲܫܹ̈ܐ ܕܲܣܒܹܲܠ</l>
+                <l n="254">ܘܠܵܘ ܐܲܝܟ ܣܵܢܹ̇ܐ ܚܘܼܒܵܐ ܕܲܒܼܢܵܘ̈ܗܝ ܠܵܐ ܪܲܛܸܢ ܗ̄ܘ̣ܵܐ ܀</l>
+                <l n="255">:ܚܵܐܹ̇ܫ ܗ̄ܘ̣ܵܐ ܓܹܝܪ <app xml:id="a255-1"><lem xml:id="l255-1" wit="#A #C">ܒܚܲܫܹ̈ܐ</lem><rdg xml:id="r255-1" wit="#B">ܒܚܲܫܵܐ</rdg></app> ܕܲܒܼܢܵܘ̈ܗܝ ܘܲܕܼܩܸܢܝܵܢܵܘ̈ܗܝ</l>
+                <l n="256">ܘܡܲܬܼܒܲܝܲܐ ܗ̄ܘ̣ܵܐ ܒܪܸܚܡܲܬܼ ܡ̇ܪܹܗ ܘܠܵܐ ܡܸܬܼܪܲܦܸܐ ܀</l>
+                <l n="257">:ܚܘܼܒܵܐ ܒܚܘܼܒܵܐ ܦܲܚܸܡ ܐܝܼܘܿܒܼ ܐܲܝܟ ܦܵܪܘܿܫܵܐ</l>
+                <pb edRef="#B" n="178"/>
+                <l n="258">ܘܲܥܠ݂ܲܒܼ ܚܘܼܒܵܐ ܕܪܸܚܡܲܬܼ ܡ̇ܪܹܗ ܠܚܘܼܒܵܐ ܕܲܒܼܢܵܘ̈ܗܝ ܀</l>
+                <l n="259">:ܐܲܟܼܪܝܼ ܣܲܓܿܝܼ ܥܲܠ ܩܸܢܝܵܢܵܘ̈ܗܝ ܘܠܵܐ ܪܲܛܸܢ <app xml:id="a259-1"><lem xml:id="l259-1" wit="#A #C">ܗ̄ܘ̣ܵܐ</lem><rdg xml:id="r259-1" wit="#B">ܗܘ̣ܐ</rdg></app></l>
+                <l n="260">ܚܲܫ̣ ܥܲܠ ܝܲܠܕܼܵܘ̈ܗܝ ܘܒܲܝܲܐ ܚܲܫܹܗ ܒܪܸܚܡܲܬܼ ܡ̇ܪܹܗ ܀</l>
+                <l n="261">:ܨܪܵܐ ܠܲܦܪܝܼܣܵܐ ܬܲܟܼܣܝܼܬܼ ܦܲܓܼܪܹܗ ܘܣܲܦܲܪ ܣܲܥܪܹܗ</l>
+                <pb edRef="#A" n="262"/>
+                <l n="262">ܘܠܵܐ ܨܪܵܐ ܠܸܒܹܿܗ ܒܝܲܕܼ ܦܘܼܠܵܓܼܵܐ ܕܥܲܠ ܒܵܪܘܿܝܹܗ ܀</l>
+                <l n="263">:ܥܲܪܛܸܠ ܢܸܦܩܹ̇ܬܼ ܟܲܕܼ ܐܸܬܼܝܲܠܕܹܿܬܼ ܐܸܡ̣ܲܪ ܟܹܐܢܵܐ</l>
+                <l n="264">ܘܥܲܪܛܸܠ ܐܸܗܦܘܿܟ ܕܠܵܐ ܬܲܟܼܣܝܼܬܼܵܐ <app xml:id="a264-1"><lem xml:id="l264-1" wit="#A #C">ܐܲܝܟ ܡ̇ܐ</lem><rdg xml:id="r264-1" wit="#B">ܐܲܟܡܵܐ</rdg></app> ܐܸܬܹܿܝܬܼ ܀</l>
+                <l n="265">:ܐܲܠܵܗܝ <app xml:id="a265-1"><lem xml:id="l265-1" wit="#A">ܝܲܗ̣̄ܒܼ ܠܝܼ</lem><rdg xml:id="r265-1" wit="#B">ܝܲܗܒܼ ܠܝܼ</rdg><rdg xml:id="r265-2" wit="#C">ܝܲܗܒܼܠܝܼ</rdg></app> ܘܲܗ̣ܦܲܟ ܫܲܩ̣ܠܹܗ ܫܲܠܝܼܛ ܪܸܡܙܹܗ</l>
+                <l n="266">ܫܡܹܗ ܢܸܬܼܒܲܪܲܟ ܡ̣ܢ ܩܸܢܝܵܢܵܘ̈ܗܝ ܥܲܠ ܟܠ ܕܲܒܼܪ̣ܵܐ ܀</l>
+                <l n="267">:ܦܪܲܥ ܬܲܡܝܼܡܵܐ ܩܵܠ ܬܵܘܕܝܼܬܼܵܐ ܚܠܵܦ ܝܵܪ̈ܘܿܬܼܵܘܗܝ</l>
+                <l n="268">ܘܚܲܬܸܿܡ ܡ̇ܪܹܗ ܥܲܠ ܚܘܼܡܣܵܢܹܗ ܕܠܵܐ ܚ̣ܛܵܐ ܘܪܲܛܸܢ ܀</l>
+                <l n="269">:ܫܠܸܡ̣ ܬܲܟܼܬܿܘܼܫܵܐ ܕܡ̇ܘܬܵܐ ܕܲܒܼܢܵܘ̈ܗܝ ܘܲܕܼܩܸܢܝܵܢܵܘ̈ܗܝ</l>
+                <l n="270">ܘܫܲܪܝܼ ܡܚܲܕܸܿܬܼ ܙܲܝܢܵܐ ܐ̄ܚܪܹܢܵܐ ܠܐܲܒܼܕܵܢ ܦܲܓܼܪܵܐ ܀</l>
+                <l n="271">:ܒܢܘܼܪܵܐ ܕܪܘܼܓܼܙܹܗ ܡܸܫܬܲܢܲܩ ܗ̄ܘ̣ܵܐ ܠܘܼܩܒܲܠ ܐܝܼܘܿܒܼ</l>
+                <l n="272">ܕܐܲܝܢܵܐ ܦܲܚܵܐ ܢܥܲܡܸܩ ܢܸܛܡܘܿܪ ܠܩܲܠܝܼܠܘܼܬܹܗ ܀</l>
+                <l n="273">:ܐܸܒܼܠܵܐ ܗ̄ܘ̣ ܪܲܒܵܐ ܐܸܢ ܙܵܟܹ̇ܐ ܠܝܼ ܥܲܦܪܹܗ ܕܐܵܕܼܵܡ</l>
+                <l n="274">ܘܡܲܗܸܠ ܓܵܚܹ̇ܟ ܒܲܪ ܕܚܝܼܚܵܐ ܥܲܠ ܪܘܼܚܵܢܵܐ ܀</l>
+                <l n="275">:ܫܒ̇ܝܼܬܼ ܩܸܢܝܵܢܵܘ̈ܗܝ ܘܠܲܒܸܿܒܼ ܢܲܦܫܹܗ ܒܬܼܘܼܟܼܠܵܢ ܡ̇ܪܹܗ</l>
+                <l n="276">ܩܸܛ̇ܠܹܬܼ ܠܲܒܼܢܵܘ̈ܗܝ ܘܒܲܪܸܟ ܠܲܫܡܹܗ ܕܗܘ̤ <app xml:id="a276-1"><lem xml:id="l276-1" wit="#A #C">ܝܲܗ̣̄ܒܼ</lem><rdg xml:id="r276-1" wit="#B">ܝܲܗ̣ܒܼ</rdg></app> ܘܲܢܣ݂ܲܒܼ ܀</l>
+                <l n="277">:ܝܸܕܼܥܹ̇ܬܼ ܡܸܟܹܿܝܠ ܕܠܵܐ ܡܸܬܼܪܲܦܸܐ ܒܒܲܪ̈ܵܝܵܬܼܵܐ</l>
+                <l n="278">ܘܠܵܐ ܡܲܚܸܫ ܠܹܗ ܟܹܐܒܵܐ ܕܝܲܠ̈ܕܵܘܗܝ ܐܲܝܟ ܕܲܩܢܘܿܡܹܗ ܀</l>
+                <l n="279">:ܠܗܲܝܟܲܠ ܦܲܓܼܪܹܗ ܙܵܕܹܩ ܡܸܟܹܿܝܠ ܕܐܸܩܪܘܿܒܼ ܘܐܸܣܬܿܘܿܪ</l>
+                <l n="280">ܕܐܸܢ ܠܵܐ ܚܵܐܹ̇ܫ ܒܝܲܕܼ ܗܲܕܵܡ̇ܘ̈ܗܝ ܠܵܐ ܡܸܬܼܪܦܸܐ: ܀</l>
+                <l n="281">:ܗܵܠܹܝܢ ܗܘ̤ ܒܹܗ ܡܸܬܼܚܲܫܲܕܼ ܗ̄ܘ̣ܵܐ ܥܵܘ̇ܠܵܐܝܼܬܼ</l>
+                <pb edRef="#B" n="179"/>
+                <l n="282">ܕܢܲܝܬܸܿܐ ܠܓܸܠܝܵܐ ܪܸܓܲܬܼ ܢܸܟܼܠܹܗ ܡܸܬܼܝܲܐܲܒܼ ܗ̄ܘ̣ܵܐ ܀</l>
+                <l n="283">:ܓܠ̣ܵܝܗܝ ܒܵܪܘܿܝܵܐ ܠܢܸܟܼܠܹܗ ܟܲܣܝܵܐ ܒܝܲܕܼ ܗܵܝ̇ ܕܐܲܟܼܬܸܿܒܼ</l>
+                <pb edRef="#C" n="308"/>
+                <cb edRef="#C" n="1"/>
+                <l n="284">ܕܐܸܬܼܵܐ ܐܵܦ ܗܘ̤ ܥܲܡ ܙܲܕܿܝܼܩܹ̈ܐ ܩܕܼܵܡ ܐܲܠܵܗܵܐ ܀</l>
+                <l n="285">:ܠܚܘܼܫܵܒܼ ܢܸܟܼܠܹܗ ܦܲܪܣܝܼ ܪܸܡܙܵܐ ܒܝܲܕܼ ܫܘܼܐܵܠܵܐ</l>
+                <l n="286">ܘܗܘ̤ ܠܹܗ ܐܲܟܸܿܣ ܒܝܲܕܼ ܗܵܝ̇ ܕܐܸܡ݂ܲܪ ܕܚܸܕܼ̇ܪܹܬܼ ܒܐܲܪܥܵܐ ܀</l>
+                <l n="287">:ܗܵܐ ܣܵܡ̣ܬܿ ܠܸܒܵܟ ܥܲܠ ܥܲܒܼܕܿܝ ܐܝܼܘܿܒܼ ܐܲܫܡܲܥ ܨܹܐܕܼܵܘܗܝ</l>
+                <l n="288">ܕܬܲܡܝܼܡ ܘܲܬܼܪܝܝܼܨ ܘܠܲܝܬܿ ܐܲܟܼܘܵܬܹܗ ܕܲܡܝܲܩܲܪ ܠܝܼ ܀</l>
+                <l n="289">:ܠܵܐ ܡܸܬܼܪܲܦܸܐ ܡ̣ܢ ܟܹܐܢܘܼܬܼܵܐ ܘܬܲܡܝܼܡܘܼܬܼܵܐ</l>
+                <l n="290">ܘܡܲܛܸܢ ܐܲܢ̄ܬܿ ܠܝܼ ܕܐܵܘܒܸܿܕܼ ܒܐܝܼܕܲܝ̈ܟ ܠܥܲܒܼܕܵܐ ܛܵܒܼܵܐ ܀</l>
+                <l n="291">:ܦܲܢܝܼ ܢܟܝܼܠܵܐ ܠܪܸܡܙܵܐ ܟܲܣܝܵܐ ܕܡ̣ܢ ܒܵܪܘܿܝܵܐ</l>
+                <l n="292">ܕܠܵܘ ܕܝܼܠܹܗ <app xml:id="a292-1"><lem xml:id="l292-1" wit="#A">ܗ̄ܘ̣</lem><rdg xml:id="r292-1" wit="#B #C">ܗ̤ܘ</rdg></app> ܡܸܫܟܵܐ ܕܲܒܼܠܲܥ ܒܓܹܐܪܹ̈ܐ ܕܲܡܚܘܼܬܼܝ ܀</l>
+                <l n="293">:ܟܠ ܠܲܡ ܕܲܩܢܸܐ ܝܵܗܹ̇ܒܼ ܓܲܒܼܪܵܐ ܘܡܲܚܸܐ ܢܲܦܫܹܗ</l>
+                <l n="294">ܕܢܲܦܫܵܐ ܗ̄ܘ̣ ܒܲܠܚܘܿܕܼ ܪܵܚܹ̇ܡ ܐ̄ܢܵܫܵܐ ܡ̣ܢ ܟܠܡܸܕܸܿܡ ܀</l>
+                <l n="295">:ܘܐܸܢ ܨܵܒܹ̇ܐ ܐܲܢ̄ܬܿ ܕܬܹܐܠܲܦ ܗܵܕܹܐ ܥܢ̣ܵܐ ܡܲܪܵܚܵܐ</l>
+                <l n="296">ܐܵܘܫܸܛ ܐܝܼܕܼܵܟ ܘܲܡܚܝܼܘܗܝ ܩܲܠܝܼܠ ܘܗܵܐ ܟܵܦܲ݁ܪ ܒܵܟ ܀</l>
+                <l n="297">:<app xml:id="a297-1"><lem xml:id="l297-1" wit="#A #B">ܘܐܸܢ</lem><rdg xml:id="r297-1" wit="#C">ܐܸܢ</rdg></app> ܡܵܚܹ̇ܐ ܐܲܢ̄ܬܿ ܫܲܒܼܛܵܐ ܕܐܝܼܕܼܵܟ ܥܲܠ ܗܲܕܵܡ̇ܘ̈ܗܝ</l>
+                <l n="298">ܒܐܲܦܲܝ̈ܟ ܩܵܐܹ̇ܡ ܘܲܡܨܲܚܸܐ ܠܵܟ ܕܠܵܐ ܟܘܼܚܵܕܼܵܐ ܀</l>
+                <pb edRef="#A" n="263"/>
+                <l n="299">ܚܵܪ̣ ܝܵ̇ܕܲܥ ܟܠ ܒܪܸܓܲܬܼ ܢܲܦܫܹܗ ܕܐܵܟܹ̇ܠܩܲܪܨܵܐ: </l>
+                <l n="300"><app xml:id="a300-1"><lem xml:id="l300-1" wit="#A #B">ܘܝܲܗ̣̄ܒܹܿܗ</lem><rdg xml:id="r300-1" wit="#C">ܘܝܗܒܹܗ</rdg></app> ܠܐܝܼܘܿܒܼ ܕܢܸܚܘܿܬܼ ܥܲܡܹܗ ܠܕܲܪܵܐ ܕܦܵܓܼܪܹܗ ܀</l>
+                <l n="301">:ܗܵܐ ܠܲܡ <app xml:id="a301-1"><lem xml:id="l301-1" wit="#C">ܡܲܫܠܸܡ</lem><rdg xml:id="r301-1" wit="#A #B">ܡܲܫܠܲܡ</rdg></app> ܐܝܼܘܿܒܼ ܒܐܝܼܕܲܝ̈ܟ ܪܡܲܙ̣ ܠܹܗ ܟܲܣܝܵܐ</l>
+                <l n="302">ܢܲܦܫܹܗ ܒܲܠܚܘܿܕܼ ܠܵܐ ܡܲܦܲܣ ܠܵܟ ܠܡܸܣܲܒܼ ܡܸܢܹܗ ܀</l>
+                <l n="303">:ܐܲܪܓܸܿܫ ܒܝܼܫܵܐ ܕܐܲܗܡܝܼ ܛܵܒܼܵܐ ܡ̣ܢ ܒܲܪ ܒܲܝܬܹܿܗ</l>
+                <l n="304">ܘܲܡ̣ܬܲܚ ܩܸܫܬܹܿܗ ܘܲܡ̣ܠܵܗ̇ <app xml:id="a304-1"><lem xml:id="l304-1" wit="#A #B">ܓܹܐܪܹ̈ܐ</lem><rdg xml:id="r304-1" wit="#C">ܓܹܐܪܵܐ</rdg></app> ܕܢܘܼܪܵܐ ܕܪܘܼܓܼܙܹܗ ܀</l>
+                <l n="305">:ܢܦܲܩ̣ ܠܲܡ ܒܝܼܫܵܐ ܘܲܡ̣ܚܵܝܗܝ ܠܐܝܼܘܿܒܼ ܒܫܘܼܚܢܵܐ ܒܝܼܫܵܠ</l>
+                <pb edRef="#B" n="180"/>
+                <l n="306">ܡ̣ܢ ܪܹܫ ܓܘܼܫܡܹܗ ܥܕܲܡܵܐ ܠܪܸ̈ܓܼܠܵܘܗܝ ܕܠܵܐ ܚܵܘܣܵܢܵܐ ܀</l>
+                <l n="307">:ܒܫܘܼܚܢܵܐ ܣܲܪܝܵܐ ܢܲܣܟܹܿܗ ܠܦܲܓܼܪܹܗ ܐܲܝܟ ܕܲܒܼܟܼܘܼܪܵܐ</l>
+                <l n="308">ܘܲܡ̣ܪܲܩ ܡܸܢܹܗ ܨܵܐܬܼܵܐ ܕܚܲܫܹ̈ܐ ܒܪܸܬܼܚܹܗ ܩܲܫܝܵܐ ܀</l>
+                <l n="309">:ܣܲܦܸܩ ܐܸܢܘܿܢ ܠܓܹܐܪ̈ܲܝ ܚܸܡܬܹܗ ܒܢܘܼܪܵܐ ܕܲܫܓܲܪ</l>
+                <l n="310">ܘܦܲܓܼܪܹܗ ܕܐܝܼܘܿܒܼ ܡܸܫܦܲܪ ܫܵܦ̇ܲܪ ܒܫܲܠܗܹܒܼܝܼܬܼܵܐ ܀</l>
+                <l n="311">:ܢܚܸܬܼܘ ܕܲܪܵܪܹ̈ܐ ܬܪܹܝܢ ܕܲܠܩܘܼܒܼܠܹ̈ܐ ܠܒܹܝܬܼ ܬܲܟܼܬܿܘܼܫܵܐ</l>
+                <l n="312">ܪܹܫܵܐ ܕܐܵܐܲܪ ܘܦܲܓܼܪܵܢܵܝܵܐ ܠܒܼܝܼܫ ܗܲܕܵܡܹ̈ܐ ܀</l>
+                <l n="313">:ܙܟܼܵܐ ܦܲܓܼܪܵܢܵܐ ܠܪܘܼܚܵܢܵܝܵܐ ܒܚܹܝܠ ܨܸܒܼܝܵܢܵܐ</l>
+                <l n="314">ܘܚܵܒܼ ܪܘܼܚܵܢܵܐ ܡ̣ܢ ܦܲܓܼܪܵܢܵܐ ܒܪܲܦܝܘܼܬܼ ܢܲܦܫܵܐ ܀</l>
+                <l n="315">:ܩܵܡ̣ ܐܲܬܼܠܹܝܛܵܐ ܕܙܲܕܿܝܼܩܘܼܬܼܵܐ ܒܐܸܣܛܵܕܼܝܼܘܿܢ</l>
+                <l n="316">ܘܐܸܚܲܕܼ ܕܲܪܵܐ ܒܸܣܪܵܢܵܝܵܐ ܥܲܡ ܪܘܼܚܵܢܵܐ ܀</l>
+                <l n="317">:ܟܢܲܫ̣ܘ ܚܲܙܵܝܹ̈ܐ ܕܐܲܬܼܠܹܝܛܘܼܬܼܵܐ ܟܸܢܫܲܝ̈ ܪܵܘܡ̇ܐ</l>
+                <l n="318">ܘܲܬܼܗܲܪܘ <app xml:id="a318-1"><lem xml:id="l318-1" wit="#A #B">ܐܲܟܲܚ̄ܕܼ</lem><rdg xml:id="r318-1" wit="#C">ܐܟܚܕ</rdg></app> ܒܦܲܓܼܪܵܢܵܝܵܐ ܕܲܙܟܼܵܐ ܠܪܘܼܚܵܐ ܀</l>
+                <l n="319">:ܐܘܿ ܬܲܟܼܬܿܘܼܫܵܐ ܚܲܕܼܬܼܵܐ ܕܲܗܘ̤ܵܐ ܕܠܵܐ ܒܲܥܝܵܕܼܵܐ</l>
+                <l n="320">ܕܐܲܝܢܵܐ ܕܒܼܵ̇ܠܲܥ ܠܹܗ ܡܸܬܼܦܲܢܸܐ ܟܠܝܼܠ ܙܵܟܼܘܼܬܼܵܐ ܀</l>
+                <l n="321">:ܒܠܲܥ̣ ܦܲܓܼܪܵܢܵܐ ܡ̣ܢ ܪܘܼܚܵܢܵܐ ܘܒܲܣܒܸܿܣ ܓܘܼܫܡܹܗ</l>
+                <l n="322">ܘܲܒܼܚܘܼܒܵܠܹܗ ܫ̣ܩܲܠ ܙܵܟܼܘܼܬܼܵܐ ܐܲܝܟ ܫܲܪܝܼܪܵܐ ܀</l>
+                <l n="323">:ܣ̣ܬܲܪ ܡ̇ܪܘܿܕܼܵܐ ܠܒܸܢܝܵܢ ܦܲܓܼܪܹܗ ܘܲܒܼܢ̣ܵܐ ܠܢܲܦܫܹܗ</l>
+                <l n="324">ܫܪ̣ܵܐ ܗܲܕܵܡ̇ܘ̈ܗܝ ܘܚܲܝܸܨ ܙܵܘܥܵܘ̈ܗܝ ܒܝܲܕܼ ܚܘܼܡܵܣܵܢܵܐ ܀</l>
+                <l n="325">:ܢܝܼܫܵܐ <app xml:id="a325-1"><lem xml:id="l325-1" wit="#A #C">ܩ̣ܒܲܥܘ</lem><rdg xml:id="r325-1" wit="#B">ܩܒܲܥ</rdg></app> ܗ̄ܘ̣ܵܘ ܒܝܼܫܵܐ ܘܐܝܼܘܿܒܼ ܒܹܝܬܼ ܐܵܓܼܘܿܢܵܐ</l>
+                <l n="326">ܕܐܲܝܢܵܐ ܕܚܵܢܹ̇ܐ ܒܝܲܕܼ ܨܸܒܼܝܵܢܵܐ ܟܠܝܼܠܵܐ ܢܵܣܹ̇ܒܼ ܀</l>
+                <cb edRef="#C" n="2"/>
+                <l n="327">:ܡ̣ܬܲܚ ܨܼܒܼܝܵܢܹܗ ܦܲܓܼܪܵܢܵܝܵܐ ܠܢܝܼܫܵܐ ܕܲܩ̣ܒܲܥܘ</l>
+                <l n="328">ܘܣܲܦܸܩ ܓܹܐܪ̈ܵܘܗܝ ܪܘܼܚܵܢܵܝܵܐ ܠܟܼܵܐ ܡ̣ܢ ܢܝܼܫܵܐ ܀</l>
+                <l n="329">:ܐܘܿ ܩܲܫܵܬܵܐ ܕܲܢܨܲܚ ܘܲܙܟܼܵܐ ܒܟܼܠ ܬܲܟܼܬܿܘܼܫܝܼ̈ܢ</l>
+                <pb edRef="#B" n="181"/>
+                <l n="330">ܘܚܲܕܼ ܥܲܦܪܵܢܵܐ ܪܡ̇ܝ̣ܗܝ ܟܲܕܼ ܝܲܬܿܝܼܒܼ ܘܲܫܠܝܼܚ ܙܲܝܢܹܗ ܀</l>
+                <l n="331">:ܐܘܿ ܡ̇ܝܘܿܬܼܵܐ ܟܝܵܢܵܐ ܫܝܼܛܵܐ ܕܕܵܫܘܼܗܝ ܕܲܝܘܹ̈ܐ</l>
+                <l n="332">ܕܩܵܡ̣ ܟܲܕܼ ܢܲܦܝܼܠ <app xml:id="a332-1"><lem xml:id="l332-1" wit="#A #B #C">ܐܲܪܡܝܼ</lem><note target="l332-1" resp="MINGANA">ܣܝܡ ܘܐܘ ܘܩܪܝ "ܘܐܪܡܝ<note type="translation" xml:lang="en">Insert 'waw' and read "and cast"</note></note></app> ܐܸܢܘܿܢ ܬܲܚܬܲܝ ܪܹ̈ܓܼܠܵܘܗܝ ܀</l>
+                <l n="333">:ܐܘܿ ܐܲܬܼܠܹܝܛܵܐ ܦܲܓܼܪܵܢܵܝܵܐ ܕܐܲܚܕܵܝ̈ܗܝ ܪ̈ܘܼܚܹܐ</l>
+                <l n="334"><app xml:id="a334-1"><lem xml:id="l334-1" wit="#A #B">ܘܦܲܠܸܛ</lem><rdg xml:id="r334-1" wit="#C">ܘܦܠܛܝܼ</rdg></app> ܢܲܦܫܹܗ ܝܲܩܝܼܪ ܓܘܼܫܡܵܐ ܡ̣ܢ ܩܲܠܝܼܠܹ̈ܐ ܀</l>
+                <l n="335">:ܐܘܿ ܡܲܠܵܚܵܐ ܕܪܵܕܹܐ ܒܝܲܡܵܐ ܒܣܲܬܼܘܵܐ ܩܲܫܝܵܐ</l>
+                <pb edRef="#A" n="264"/>
+                <l n="336">ܘܠܵܐ <app xml:id="a336-1"><lem xml:id="l336-1" wit="#A #B">ܛܲܒܲܥܬܼܵܗ̇</lem><rdg xml:id="r336-1" wit="#C">ܛܲܒܲܥܬܹܗ</rdg></app> ܫܓܼܝܼܫܘܼܬܼ ܓܲܠ̈ܠܹܐ ܠܗܲܝܡܵܢܘܼܬܹܗ ܀</l>
+                <l n="337">:ܫܲܓܼܫܹܗ ܒܝܼܫܵܐ ܒܝܲܡܵܐ ܕܦܲܓܼܪܹܗ ܥܲܡ ܪܸܥܝܵܢܹܗ</l>
+                <l n="338">ܘܐܲܣܪ̣ܵܗ̇ ܠܸܐܠܦܵܐ ܒܚܘܼܡܣܵܢ <app xml:id="a338-1"><lem xml:id="l338-1" wit="#A #B">ܢܲܦܫܹܗ</lem><rdg xml:id="r338-1" wit="#C">ܢܲܦܫܵܐ</rdg></app> ܕܠܵܐ ܬܸܬܿܛܲܒܲܥ ܀</l>
+                <l n="339">:ܢܫܲܒ̣ܘ ܒܹܗ ܛܹܒܹ̈ܐ ܐܲܝܟ ܥܲܠܥܵܠܹ̈ܐ ܘܠܵܐ ܐܸܬܼܪܲܦܝܼ</l>
+                <l n="340">ܘܢܲܩ̣ܫܹܗ ܚܲܫܵܐ ܕܡܵܘܬܵܐ ܕܲܒܼܢܵܘ̈ܗܝ ܘܠܵܐ ܐܸܬܼܦܲܠܲܓܼ ܀</l>
+                <l n="341">:ܚܲܒܼܛܵܗ̇ ܒܝܼܫܵܐ ܠܚܲܩܠܵܐ ܕܦܲܓܼܪܹܗ ܒܒܲܪܕܼܵܐ <app xml:id="a341-1"><lem xml:id="l341-1" wit="#A #B">ܕܟܹܐܒܹ̈ܐ</lem><rdg xml:id="r341-1" wit="#C">ܕܟܹܐܦܹ̈ܐ</rdg></app></l>
+                <l n="342">ܘܲܦܪ݂ܲܥ ܦܘܼܡܹܗ ܩܵܠ ܬܸܫܒܿܘܿܚܬܵܐ ܚܠܵܦ ܓܘܼܕܵܦܵܐ ܀</l>
+                <l n="343">:ܫ̣ܒܼܵܐ ܩܸܢܝܵܢܵܘ̈ܗܝ ܐܵܟܹ̇ܠܩܲܪܨܵܐ ܕܢܸܫܒܸܿܐ ܠܸܒܹܿܗ</l>
+                <l n="344">ܘܣܲܬܲܪ ܥܘܼܬܼܪܵܐ ܕܟܲܣܝܘܼܬܼ ܢܲܦܫܹܗ ܒܓܼܵܘ ܡ̣ܢ ܩܘܼܫܬܵܐ ܀</l>
+                <l n="345">:ܕܠܵܐ ܐܸܬܼܪܲܦܝܼ ܒܐܲܒܼܕܵܢ ܢܸܟܼܣܵܘ̈ܗܝ ܘܚܲܫܲܝ̈ ܦܲܓܼܪܹܗ</l>
+                <l n="346">ܓܼܕܲܠ ܠܹܗ ܡ̇ܪܹܗ ܟܠܝܼܠ ܙܵܟܼܘܼܬܼܵܐ ܚܠܵܦ ܐܘܼܠܨܵܢܵܘ̈ܗܝ ܀</l>
+                <l n="347">:ܕܲܕܼܪܲܫ ܐܘܼܪܚܵܐ ܨܹܝܕܼ ܟܹܐܢܘܼܬܼܵܐ ܒܦܘܼܪܫܵܢ ܢܲܦܫܹܗ</l>
+                <l n="348">ܥܲܒܼܕܹܿܗ ܐܘܼܪܚܵܐ ܕܢܸܪܕܿܘܿܢ ܐ̄ܢܵܫܵܐ ܒܕܼܘܼܡܝܵܐ ܕܥܲܡܠܵܘ̈ܗܝ ܀</l>
+                <l n="339">:ܕܩܲܒܸܿܠ ܢܝܼܫܵܐ ܕܙܵܟܼܘܼܬܼ ܩܘܼܫܬܵܐ ܠܘܼܩܒܲܠ ܒܝܼܫܵܐ</l>
+                <l n="350">ܪܫܲܡ̣ ܕܘܼܟܼܪܵܢܹܗ ܒܲܕܼܡܘܼܬܼ ܨܲܠܡܵܐ ܠܓܼܵܘ ܡ̣ܢ ܣܸܦܪ̈ܵܘܗܝ ܀</l>
+                <l n="351">:ܐܲܝܟ ܡܲܚܙܝܼܬܼܵܐ ܠܫܲܦܝܘܼܬܼ ܢܲܦܫܵܐ ܟ̣ܬܲܒܼ ܕܘܼܟܼܪܵܢܹܗ</l>
+                <l n="352">ܕܢܸܡܪܘܿܩ ܟܠܢܵܫ ܣܲܢܝܘܼܬܼ ܢܲܦܫܹܗ ܒܫܘܼܦܪ̈ܵܘܗܝ ܕܐܝܼܘܿܒܼ ܀</l>
+                <l n="353">:ܒܗܵܕܹܐ ܬܸܢܘܲܝ ܩܲܠܸܣ ܐܸܢܘܿܢ ܛܵܒܼܵܐ ܠܟܹܐܢܹ̈ܐ</l>
+                <pb edRef="#B" n="182"/>
+                <l n="354">ܕܢܸܗܘܘܿܢ ܨܲܠܡܵܐ ܒܝܲܕܼ ܥܲܡܠܲܝ̈ܗܘܿܢ ܠܟܲܣܝܘܼܬܼ ܩܘܼܫܬܵܐ ܀</l>
+                <l n="355">:ܠܵܘ ܩܘܼܠܵܣܹ̈ܐ ܐܲܪ̈ܥܵܢܵܝܹܐ ܓܼܕܲܠ ܠܐܲܬܼܠܹܝܛܵܘ̈ܗܝ</l>
+                <l n="356">ܛܢܵܢܵܐ ܐܲܪܡܝܼ ܒܐܲܪܥܵܐ ܠܐ̄ܢܵܫܵܐ ܠܘܵܬܼ ܟܹܐܢܘܼܬܼܵܐ ܀</l>
+                <l n="357">:ܒܚܲܫܵܘ̈ܗܝ ܕܐܝܼܘܿܒܼ ܦ̣ܬܲܚ ܐܵܓܼܘܿܢܵܐ ܠܐܲܬܼܠܹܝܛܘܼܬܼܵܐ</l>
+                <l n="358">ܘܫܲܪܝܼ ܒܸܣܪܵܐ ܠܡܹܐܚܲܕܼ ܕܲܪܵܐ ܥܲܡ ܪ̈ܘܼܚܵܢܹܐ ܀</l>
+                <l n="359">:ܗܘ̤ܵܘ ܢܸܨܚܵܢܵܘ̈ܗܝ ܐܲܝܟ ܟܵܪ̈ܘܿܙܹܐ ܒܐܸܕܼܢܲܝ̈ ܟܠܢܵܫ</l>
+                <l n="360">ܕܚܲܡܣܸܢܘ <app xml:id="a360-1"><lem xml:id="l360-1" wit="#A #B">ܐ̄ܢܵܫܵܐ</lem><rdg xml:id="r360-1" wit="#C">ܐ̄ܢܫ̈ܐ</rdg></app> ܘܠܵܐ ܬܸܬܼܪܲܦܘܿܢ ܒܚܲܫܲܝ̈ ܦܲܓܼܪܵܐ ܀</l>
+                <l n="361">:ܐܲܝܟ ܫܝܼܦܘܿܪܵܐ ܩܵܥܹ̇ܐ ܟܠܫܵܥ ܥܲܠ ܙܵܟܼܘܼܬܹܗ</l>
+                <l n="362">ܕܩܲܠܝܼܠ ܙܲܒܼܢܵܐ ܘܲܙܥܘܿܪ ܚܲܫܵܐ ܘܪܲܒܿ ܦܘܼܪܥܵܢܵܐ ܀</l>
+                <l n="363">:ܥܲܡ ܟܠ ܘܲܒܼܟܼܠ ܗܘ̤ ܡܸܣܬܵܘܲܕܼ ܒܚܲܫܹ̈ܐ ܕܲܣ̣ܒܲܠ</l>
+                <l n="364"><app xml:id="a364-1"><lem xml:id="l364-1" wit="#A #B">ܕܠܵܐ</lem><rdg xml:id="r364-1" wit="#C">ܠܵܐ</rdg></app> ܠܲܡ ܫܵܘܹ̇ܝܢ ܚܲܫܹ̈ܐ ܕܙܲܒܼܢܵܐ ܠܫܘܼܒܼܚܵܐ ܕܲܥܬܼܝܼܕܼ ܀</l>
+                <l n="365">:ܢܸܗܘܸܐ ܐܝܼܘܿܒܼ ܐܲܝܟ ܡܲܚܙܝܼܬܼܵܐ ܠܪܲܦܝܘܼܬܼ ܢܲܦܫܲܢ</l>
+                <l n="366">ܕܟܲܕܼ ܦܲܓܼܪܵܢܵܐ ܗ̄ܘ̣ ܒܚܲܫܲܝ̈ ܦܲܓܼܪܵܐ ܙܟܼܵܐ ܠܪܘܼܚܵܢܵܐ ܀</l>
+                <l n="367">:ܒܐܘܼܪܚܵܐ ܕܥܲܡܠܵܘ̈ܗܝ ܢܸܪܕܸܿܐ <app xml:id="a367-1"><lem xml:id="l367-1" wit="#B #C">ܟܠܫܵܥ</lem><rdg xml:id="r367-1" wit="#A">ܟܠ ܫܵܥ</rdg></app> ܕܠܵܐ ܪܘܼܛܵܢܵܐ</l>
+                <l n="368">ܘܲܒܼܚܘܼܡܣܵܢܹܗ ܢܸܬܼܪܘܿܨ ܢܝܼܫܵܐ ܠܗܲܝܡܵܢܘܼܬܲܢ ܀</l>
+            </div>
+        </body>
+    </text>
+</TEI>
